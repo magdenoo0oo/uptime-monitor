@@ -1,0 +1,8 @@
+[
+  {
+    "site": "digital-egypt",
+    "startedAt": "2026-11-15T22:03:34Z",
+    "resolvedAt": null,
+    "cause": "Connect Timeout Error (attempted address: digital.gov.eg:443, timeout: 10000ms)"
+  }
+]

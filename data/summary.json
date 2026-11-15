@@ -1,0 +1,430 @@
+{
+  "generatedAt": "2026-11-15T22:03:34Z",
+  "sites": [
+    {
+      "id": "cbe",
+      "name": "Central Bank of Egypt",
+      "category": "Banks",
+      "status": "up",
+      "since": "2026-11-15T22:03:34Z",
+      "today": {
+        "checks": 1,
+        "uptimePercent": 100,
+        "avgMs": 820,
+        "p95Ms": 820
+      },
+      "7d": {
+        "checks": 1,
+        "uptimePercent": 100,
+        "avgMs": 820,
+        "p95Ms": 820
+      },
+      "30d": {
+        "checks": 1,
+        "uptimePercent": 100,
+        "avgMs": 820,
+        "p95Ms": 820
+      }
+    },
+    {
+      "id": "nbe",
+      "name": "National Bank of Egypt",
+      "category": "Banks",
+      "status": "up",
+      "since": "2026-11-15T22:03:34Z",
+      "today": {
+        "checks": 1,
+        "uptimePercent": 100,
+        "avgMs": 1618,
+        "p95Ms": 1618
+      },
+      "7d": {
+        "checks": 1,
+        "uptimePercent": 100,
+        "avgMs": 1618,
+        "p95Ms": 1618
+      },
+      "30d": {
+        "checks": 1,
+        "uptimePercent": 100,
+        "avgMs": 1618,
+        "p95Ms": 1618
+      }
+    },
+    {
+      "id": "banque-misr",
+      "name": "Banque Misr",
+      "category": "Banks",
+      "status": "up",
+      "since": "2026-11-15T22:03:34Z",
+      "today": {
+        "checks": 1,
+        "uptimePercent": 100,
+        "avgMs": 1738,
+        "p95Ms": 1738
+      },
+      "7d": {
+        "checks": 1,
+        "uptimePercent": 100,
+        "avgMs": 1738,
+        "p95Ms": 1738
+      },
+      "30d": {
+        "checks": 1,
+        "uptimePercent": 100,
+        "avgMs": 1738,
+        "p95Ms": 1738
+      }
+    },
+    {
+      "id": "cib",
+      "name": "CIB",
+      "category": "Banks",
+      "status": "up",
+      "since": "2026-11-15T22:03:34Z",
+      "today": {
+        "checks": 1,
+        "uptimePercent": 100,
+        "avgMs": 3129,
+        "p95Ms": 3129
+      },
+      "7d": {
+        "checks": 1,
+        "uptimePercent": 100,
+        "avgMs": 3129,
+        "p95Ms": 3129
+      },
+      "30d": {
+        "checks": 1,
+        "uptimePercent": 100,
+        "avgMs": 3129,
+        "p95Ms": 3129
+      }
+    },
+    {
+      "id": "fawry",
+      "name": "Fawry",
+      "category": "Payments",
+      "status": "up",
+      "since": "2026-11-15T22:03:34Z",
+      "today": {
+        "checks": 1,
+        "uptimePercent": 100,
+        "avgMs": 2163,
+        "p95Ms": 2163
+      },
+      "7d": {
+        "checks": 1,
+        "uptimePercent": 100,
+        "avgMs": 2163,
+        "p95Ms": 2163
+      },
+      "30d": {
+        "checks": 1,
+        "uptimePercent": 100,
+        "avgMs": 2163,
+        "p95Ms": 2163
+      }
+    },
+    {
+      "id": "digital-egypt",
+      "name": "Digital Egypt",
+      "category": "Government",
+      "status": "down",
+      "since": "2026-11-15T22:03:34Z",
+      "today": {
+        "checks": 1,
+        "uptimePercent": 0,
+        "avgMs": null,
+        "p95Ms": null
+      },
+      "7d": {
+        "checks": 1,
+        "uptimePercent": 0,
+        "avgMs": null,
+        "p95Ms": null
+      },
+      "30d": {
+        "checks": 1,
+        "uptimePercent": 0,
+        "avgMs": null,
+        "p95Ms": null
+      }
+    },
+    {
+      "id": "eta",
+      "name": "Egyptian Tax Authority",
+      "category": "Government",
+      "status": "up",
+      "since": "2026-11-15T22:03:34Z",
+      "today": {
+        "checks": 1,
+        "uptimePercent": 100,
+        "avgMs": 1914,
+        "p95Ms": 1914
+      },
+      "7d": {
+        "checks": 1,
+        "uptimePercent": 100,
+        "avgMs": 1914,
+        "p95Ms": 1914
+      },
+      "30d": {
+        "checks": 1,
+        "uptimePercent": 100,
+        "avgMs": 1914,
+        "p95Ms": 1914
+      }
+    },
+    {
+      "id": "capmas",
+      "name": "CAPMAS",
+      "category": "Government",
+      "status": "up",
+      "since": "2026-11-15T22:03:34Z",
+      "today": {
+        "checks": 1,
+        "uptimePercent": 100,
+        "avgMs": 2813,
+        "p95Ms": 2813
+      },
+      "7d": {
+        "checks": 1,
+        "uptimePercent": 100,
+        "avgMs": 2813,
+        "p95Ms": 2813
+      },
+      "30d": {
+        "checks": 1,
+        "uptimePercent": 100,
+        "avgMs": 2813,
+        "p95Ms": 2813
+      }
+    },
+    {
+      "id": "vodafone",
+      "name": "Vodafone Egypt",
+      "category": "Telecom",
+      "status": "up",
+      "since": "2026-11-15T22:03:34Z",
+      "today": {
+        "checks": 1,
+        "uptimePercent": 100,
+        "avgMs": 2354,
+        "p95Ms": 2354
+      },
+      "7d": {
+        "checks": 1,
+        "uptimePercent": 100,
+        "avgMs": 2354,
+        "p95Ms": 2354
+      },
+      "30d": {
+        "checks": 1,
+        "uptimePercent": 100,
+        "avgMs": 2354,
+        "p95Ms": 2354
+      }
+    },
+    {
+      "id": "orange",
+      "name": "Orange Egypt",
+      "category": "Telecom",
+      "status": "up",
+      "since": "2026-11-15T22:03:34Z",
+      "today": {
+        "checks": 1,
+        "uptimePercent": 100,
+        "avgMs": 2709,
+        "p95Ms": 2709
+      },
+      "7d": {
+        "checks": 1,
+        "uptimePercent": 100,
+        "avgMs": 2709,
+        "p95Ms": 2709
+      },
+      "30d": {
+        "checks": 1,
+        "uptimePercent": 100,
+        "avgMs": 2709,
+        "p95Ms": 2709
+      }
+    },
+    {
+      "id": "etisalat",
+      "name": "e& Egypt",
+      "category": "Telecom",
+      "status": "up",
+      "since": "2026-11-15T22:03:34Z",
+      "today": {
+        "checks": 1,
+        "uptimePercent": 100,
+        "avgMs": 2838,
+        "p95Ms": 2838
+      },
+      "7d": {
+        "checks": 1,
+        "uptimePercent": 100,
+        "avgMs": 2838,
+        "p95Ms": 2838
+      },
+      "30d": {
+        "checks": 1,
+        "uptimePercent": 100,
+        "avgMs": 2838,
+        "p95Ms": 2838
+      }
+    },
+    {
+      "id": "we",
+      "name": "WE (Telecom Egypt)",
+      "category": "Telecom",
+      "status": "up",
+      "since": "2026-11-15T22:03:34Z",
+      "today": {
+        "checks": 1,
+        "uptimePercent": 100,
+        "avgMs": 5389,
+        "p95Ms": 5389
+      },
+      "7d": {
+        "checks": 1,
+        "uptimePercent": 100,
+        "avgMs": 5389,
+        "p95Ms": 5389
+      },
+      "30d": {
+        "checks": 1,
+        "uptimePercent": 100,
+        "avgMs": 5389,
+        "p95Ms": 5389
+      }
+    },
+    {
+      "id": "egyptair",
+      "name": "EgyptAir",
+      "category": "Travel",
+      "status": "up",
+      "since": "2026-11-15T22:03:34Z",
+      "today": {
+        "checks": 1,
+        "uptimePercent": 100,
+        "avgMs": 2580,
+        "p95Ms": 2580
+      },
+      "7d": {
+        "checks": 1,
+        "uptimePercent": 100,
+        "avgMs": 2580,
+        "p95Ms": 2580
+      },
+      "30d": {
+        "checks": 1,
+        "uptimePercent": 100,
+        "avgMs": 2580,
+        "p95Ms": 2580
+      }
+    },
+    {
+      "id": "ahram",
+      "name": "Al-Ahram",
+      "category": "News",
+      "status": "up",
+      "since": "2026-11-15T22:03:34Z",
+      "today": {
+        "checks": 1,
+        "uptimePercent": 100,
+        "avgMs": 2452,
+        "p95Ms": 2452
+      },
+      "7d": {
+        "checks": 1,
+        "uptimePercent": 100,
+        "avgMs": 2452,
+        "p95Ms": 2452
+      },
+      "30d": {
+        "checks": 1,
+        "uptimePercent": 100,
+        "avgMs": 2452,
+        "p95Ms": 2452
+      }
+    },
+    {
+      "id": "youm7",
+      "name": "Youm7",
+      "category": "News",
+      "status": "up",
+      "since": "2026-11-15T22:03:34Z",
+      "today": {
+        "checks": 1,
+        "uptimePercent": 100,
+        "avgMs": 2688,
+        "p95Ms": 2688
+      },
+      "7d": {
+        "checks": 1,
+        "uptimePercent": 100,
+        "avgMs": 2688,
+        "p95Ms": 2688
+      },
+      "30d": {
+        "checks": 1,
+        "uptimePercent": 100,
+        "avgMs": 2688,
+        "p95Ms": 2688
+      }
+    },
+    {
+      "id": "masrawy",
+      "name": "Masrawy",
+      "category": "News",
+      "status": "up",
+      "since": "2026-11-15T22:03:34Z",
+      "today": {
+        "checks": 1,
+        "uptimePercent": 100,
+        "avgMs": 2834,
+        "p95Ms": 2834
+      },
+      "7d": {
+        "checks": 1,
+        "uptimePercent": 100,
+        "avgMs": 2834,
+        "p95Ms": 2834
+      },
+      "30d": {
+        "checks": 1,
+        "uptimePercent": 100,
+        "avgMs": 2834,
+        "p95Ms": 2834
+      }
+    },
+    {
+      "id": "cairo-university",
+      "name": "Cairo University",
+      "category": "Education",
+      "status": "up",
+      "since": "2026-11-15T22:03:34Z",
+      "today": {
+        "checks": 1,
+        "uptimePercent": 100,
+        "avgMs": 3456,
+        "p95Ms": 3456
+      },
+      "7d": {
+        "checks": 1,
+        "uptimePercent": 100,
+        "avgMs": 3456,
+        "p95Ms": 3456
+      },
+      "30d": {
+        "checks": 1,
+        "uptimePercent": 100,
+        "avgMs": 3456,
+        "p95Ms": 3456
+      }
+    }
+  ]
+}
