@@ -4,14 +4,14 @@ Checked 20–30 times a day by [`collect.yml`](../.github/workflows/collect.yml)
 (exponential-backoff retries before a site counts as down). **Up** = the server answered with a status below 500
 within 15 s. Probes run from GitHub Actions runners (outside Egypt), so sites that block foreign traffic aren't listed.
 
-_Last check: 2026-11-15T22:13:51Z_
+_Last check: 2026-11-15T22:26:05Z_
 
 |  | Site | Category | Today | 7 days | 30 days | p95 (7d) |
 |---|---|---|---|---|---|---|
 | 🟢 | Central Bank of Egypt | Banks | 100% | 100% | 100% | 820 ms |
 | 🟢 | National Bank of Egypt | Banks | 100% | 100% | 100% | 1618 ms |
 | 🟢 | Banque Misr | Banks | 100% | 100% | 100% | 1759 ms |
-| 🟢 | CIB | Banks | 100% | 100% | 100% | 3129 ms |
+| 🟢 | CIB | Banks | 100% | 100% | 100% | 3167 ms |
 | 🟢 | Fawry | Payments | 100% | 100% | 100% | 2163 ms |
 | 🔴 | Digital Egypt | Government | 0.00% | 0.00% | 0.00% | — |
 | 🟢 | Egyptian Tax Authority | Government | 100% | 100% | 100% | 1914 ms |
@@ -20,7 +20,7 @@ _Last check: 2026-11-15T22:13:51Z_
 | 🟢 | Orange Egypt | Telecom | 100% | 100% | 100% | 2709 ms |
 | 🟢 | e& Egypt | Telecom | 100% | 100% | 100% | 2838 ms |
 | 🟢 | WE (Telecom Egypt) | Telecom | 100% | 100% | 100% | 5389 ms |
-| 🟢 | EgyptAir | Travel | 100% | 100% | 100% | 2580 ms |
+| 🟢 | EgyptAir | Travel | 100% | 100% | 100% | 2707 ms |
 | 🟢 | Al-Ahram | News | 100% | 100% | 100% | 2452 ms |
 | 🟢 | Youm7 | News | 100% | 100% | 100% | 2688 ms |
 | 🟢 | Masrawy | News | 100% | 100% | 100% | 2834 ms |
