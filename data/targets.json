@@ -1,0 +1,19 @@
+[
+  { "id": "cbe", "name": "Central Bank of Egypt", "category": "Banks", "url": "https://www.cbe.org.eg/" },
+  { "id": "nbe", "name": "National Bank of Egypt", "category": "Banks", "url": "https://www.nbe.com.eg/" },
+  { "id": "banque-misr", "name": "Banque Misr", "category": "Banks", "url": "https://www.banquemisr.com/" },
+  { "id": "cib", "name": "CIB", "category": "Banks", "url": "https://www.cibeg.com/" },
+  { "id": "fawry", "name": "Fawry", "category": "Payments", "url": "https://fawry.com/" },
+  { "id": "digital-egypt", "name": "Digital Egypt", "category": "Government", "url": "https://digital.gov.eg/" },
+  { "id": "eta", "name": "Egyptian Tax Authority", "category": "Government", "url": "https://www.eta.gov.eg/" },
+  { "id": "capmas", "name": "CAPMAS", "category": "Government", "url": "https://www.capmas.gov.eg/" },
+  { "id": "vodafone", "name": "Vodafone Egypt", "category": "Telecom", "url": "https://web.vodafone.com.eg/" },
+  { "id": "orange", "name": "Orange Egypt", "category": "Telecom", "url": "https://www.orange.eg/" },
+  { "id": "etisalat", "name": "e& Egypt", "category": "Telecom", "url": "https://www.etisalat.eg/" },
+  { "id": "we", "name": "WE (Telecom Egypt)", "category": "Telecom", "url": "https://te.eg/" },
+  { "id": "egyptair", "name": "EgyptAir", "category": "Travel", "url": "https://www.egyptair.com/" },
+  { "id": "ahram", "name": "Al-Ahram", "category": "News", "url": "https://www.ahram.org.eg/" },
+  { "id": "youm7", "name": "Youm7", "category": "News", "url": "https://www.youm7.com/" },
+  { "id": "masrawy", "name": "Masrawy", "category": "News", "url": "https://www.masrawy.com/" },
+  { "id": "cairo-university", "name": "Cairo University", "category": "Education", "url": "https://cu.edu.eg/" }
+]

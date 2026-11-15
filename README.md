@@ -1,5 +1,7 @@
 # Uptime Monitor
 
+[![ci](https://github.com/magdenoo0oo/uptime-monitor/actions/workflows/ci.yml/badge.svg)](https://github.com/magdenoo0oo/uptime-monitor/actions/workflows/ci.yml) [![collect](https://github.com/magdenoo0oo/uptime-monitor/actions/workflows/collect.yml/badge.svg)](data/STATUS.md)
+
 باك إند لمراقبة المواقع.
 اليوزر بيضيف لينكات، و worker في الخلفية بيفحصها كل كام دقيقة.
 لو موقع وقع بيفتح incident ويبعت إيميل، ولما يرجع بيقفل الـ incident ويبعت إيميل تاني.
@@ -20,13 +22,27 @@ npm run dev               # API + worker على http://localhost:4100
 |---|---|
 | `npm run dev` | الـ API والـ worker في process واحدة، وبيعمل restart لوحده مع أي تعديل |
 | `npm run worker` | worker لوحده (فحوصات وإيميلات) من غير HTTP |
-| `npm test` | 47 test (MongoDB في الذاكرة، وموقع وهمي، و SMTP وهمي) |
+| `npm test` | 52 test (MongoDB في الذاكرة، وموقع وهمي، و SMTP وهمي) |
 | `npm run demo` | والسيرفر شغال: بيمثّل موقع بيقع ويرجع، وبيعرض كل اللي الـ API بيقوله |
 
 **التوثيق التفاعلي:** http://localhost:4100/docs (Swagger). اعمل login، ودوس **Authorize** وحط الـ `accessToken`.
 
 **الإيميلات:** لو `SMTP_URL` فاضي، الإيميلات بتتسجل في الـ log بدل ما تتبعت، فتقدر تجرب كل حاجة من غير SMTP.
 عشان تشوفها كإيميلات حقيقية من غير ما تبعت لحد، اعمل inbox مجاني على [Mailtrap](https://mailtrap.io) وحط الـ SMTP URL بتاعه.
+
+## داتا حقيقية: مواقع مصرية لايف
+
+غير الـ API، المشروع بيراقب **17 موقع مصري عام** (بنوك، حكومة، اتصالات، أخبار) من GitHub Actions، والنتايج بتتسجل في الـ repo نفسه:
+
+**⬅ [data/STATUS.md](data/STATUS.md): الحالة دلوقتي، ونسبة الـ uptime في آخر 24 ساعة و 7 أيام و 30 يوم، والأعطال.**
+
+- **`collect.yml`:** بيشتغل 20–30 مرة في اليوم في أوقات مختلفة. نفس تصميم egypt-pulse: الـ planner في `scripts/plan.mjs` بيعمل خطة ثابتة لكل يوم، والـ workflow بيلحق الفحوصات اللي فاتته لو GitHub وقّف الـ cron، وبيرجّع نفسه لو اتوقف.
+- **`scripts/collect.js`:** بيستخدم نفس `probeWithRetries` بتاع الـ API، يعني نفس الـ retries بالـ backoff ونفس حماية SSRF. ومنطق الحسابات كله في `src/collector/state.js` ومتغطي بـ tests.
+- **الملفات اللي بتطلع:** `latest.json`، و `daily/<date>.json`، و `incidents.json`، و `summary.json`، و `STATUS.md`.
+- **تعريف "up":** السيرفر رد بأي status أقل من 500 في خلال 15 ثانية. الـ 403 من حماية البوتات معناها إن السيرفر شغال.
+- **حدود القياس:** الفحص بيتعمل من runners بره مصر، فالمواقع اللي بتمنع الطلبات من بره (زي البورصة) مش في القايمة.
+
+تضيف موقع؟ زوّده في `data/targets.json`. وعدد الفحوصات في اليوم بيتظبط من repo variables: `PLAN_MIN` و `PLAN_MAX`.
 
 ## هيكل المشروع
 
@@ -50,9 +66,14 @@ src/
     auth/ users/         التسجيل والـ tokens والإعدادات
     monitors/            CRUD، والإحصائيات، والسجل
     status/              صفحة الحالة العامة
+  collector/state.js     منطق الداتا اليومية (latest, daily, incidents, STATUS.md)
   docs/openapi.js        Swagger spec (الـ request schemas متولدة من Zod)
-tests/                   47 test
-scripts/demo.js          ديمو كامل في الـ terminal
+data/                    نتايج مراقبة المواقع المصرية (بيكتبها collect.yml)
+scripts/
+  collect.js             جولة فحص واحدة على data/targets.json
+  plan.mjs               خطة الفحوصات اليومية (20–30 في اليوم)
+  demo.js                ديمو كامل في الـ terminal
+tests/                   52 test
 ```
 
 ## إزاي بيشتغل

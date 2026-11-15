@@ -1,0 +1,102 @@
+name: collect
+
+# Real data, real commits: each run probes the Egyptian websites in data/targets.json with this project's own probe
+# (backoff retries, SSRF guard) and commits the results to data/ (latest, daily, incidents, summary, STATUS.md).
+#
+# Same scheduling design as egypt-pulse: each UTC day gets its own plan of 20–30 checks at varied times
+# (scripts/plan.mjs, deterministic per date; tune with repo variables PLAN_MIN / PLAN_MAX). The cron fires every
+# 10 minutes, far more than the plan needs, because GitHub drops and delays scheduled runs: every firing asks the
+# planner whether a slot is due, and the next firing that gets through takes over a missed one. Runs that are not
+# due exit in seconds, before npm ci, and commit nothing. If the scheduler goes quiet, a run that is still behind
+# chains the next run itself, and every run re-enables the schedule (GitHub pauses idle ones).
+on:
+  schedule:
+    - cron: "7,17,27,37,47,57 * * * *"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Probe and commit now, even if no planned slot is due"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25 # a chaining run waits up to 14 minutes before starting the next one
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 100 # enough history to count today's data commits
+
+      - name: Ask the planner whether a slot is due
+        id: plan
+        env:
+          FORCE: ${{ inputs.force }}
+          PLAN_MIN: ${{ vars.PLAN_MIN }}
+          PLAN_MAX: ${{ vars.PLAN_MAX }}
+        run: |
+          done_today=$(git log --since="$(date -u +%F)T00:00:00Z" --format=%s | grep -c '^data: ' || true)
+          last=$(git log -1 --grep='^data: ' --format=%ct || true)
+          flag=""; [ "$FORCE" = "true" ] && flag="--force"
+          node scripts/plan.mjs --done "${done_today:-0}" --last "${last:-0}" $flag | tee -a "$GITHUB_OUTPUT"
+          { echo "### Planner"; echo; grep -E '^(date|planned|target|done|due|reason)=' "$GITHUB_OUTPUT" | sed 's/^/- /'; } >> "$GITHUB_STEP_SUMMARY"
+
+      - uses: actions/setup-node@v7
+        if: steps.plan.outputs.due == 'true'
+        with:
+          node-version: 22
+          cache: npm
+      - if: steps.plan.outputs.due == 'true'
+        run: npm ci --omit=dev # the collector needs no test tooling (skips the MongoDB test binary)
+      - name: Probe the sites
+        if: steps.plan.outputs.due == 'true'
+        run: |
+          node scripts/collect.js | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit and push data
+        id: push
+        if: steps.plan.outputs.due == 'true'
+        run: |
+          git config user.name  "magdenoo0oo"
+          git config user.email "195882873+magdenoo0oo@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
+          git commit -q -m "data: $(date -u +'%F %H:%MZ')"
+          ok=0
+          for i in 1 2 3 4 5; do
+            if git pull --rebase -q && git push -q; then ok=1; break; fi
+            sleep $((i * 5))
+          done
+          [ "$ok" = 1 ]
+          echo "pushed=true" >> "$GITHUB_OUTPUT"
+
+      # GitHub's scheduler can go quiet for hours. A run that committed and is still behind today's plan starts the
+      # next run itself (GITHUB_TOKEN may trigger workflow_dispatch) after a short random wait. The chain stops as
+      # soon as it has caught up.
+      - name: Chain the next run while today's plan is behind
+        if: steps.push.outputs.pushed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TARGET: ${{ steps.plan.outputs.target }}
+          DONE: ${{ steps.plan.outputs.done }}
+        run: |
+          behind=$(( ${TARGET:-0} - ${DONE:-0} - 1 ))
+          if [ "$behind" -lt 1 ]; then echo "caught up with today's plan"; exit 0; fi
+          wait=$(( 480 + RANDOM % 360 ))
+          echo "still $behind slot(s) behind: next run in $((wait / 60)) min"
+          sleep "$wait"
+          gh workflow run collect.yml --ref main -f force=false
+
+      - name: Keep the schedule alive
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow enable collect.yml || true
