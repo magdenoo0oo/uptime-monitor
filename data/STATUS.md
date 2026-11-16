@@ -4,7 +4,7 @@ Checked 20–30 times a day by [`collect.yml`](../.github/workflows/collect.yml)
 (exponential-backoff retries before a site counts as down). **Up** = the server answered with a status below 500
 within 15 s. Probes run from GitHub Actions runners (outside Egypt), so sites that block foreign traffic aren't listed.
 
-_Last check: 2026-11-16T08:41:09Z_
+_Last check: 2026-11-16T08:52:10Z_
 
 |  | Site | Category | Today | 7 days | 30 days | p95 (7d) |
 |---|---|---|---|---|---|---|
@@ -18,7 +18,7 @@ _Last check: 2026-11-16T08:41:09Z_
 | 🟢 | CAPMAS | Government | 100% | 100% | 100% | 3369 ms |
 | 🟢 | Vodafone Egypt | Telecom | 100% | 100% | 100% | 3279 ms |
 | 🟢 | Orange Egypt | Telecom | 100% | 100% | 100% | 2709 ms |
-| 🟢 | e& Egypt | Telecom | 100% | 100% | 100% | 2877 ms |
+| 🟢 | e& Egypt | Telecom | 100% | 100% | 100% | 2919 ms |
 | 🟢 | WE (Telecom Egypt) | Telecom | 100% | 100% | 100% | 5389 ms |
 | 🟢 | EgyptAir | Travel | 100% | 100% | 100% | 2756 ms |
 | 🟢 | Al-Ahram | News | 100% | 100% | 100% | 2452 ms |
