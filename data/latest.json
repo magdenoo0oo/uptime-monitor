@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-16T09:58:37Z",
+  "checkedAt": "2026-11-16T10:10:21Z",
   "sites": [
     {
       "id": "cbe",
@@ -9,7 +9,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 202,
+      "responseTimeMs": 510,
       "error": null,
       "attempts": 1
     },
@@ -21,7 +21,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 302,
-      "responseTimeMs": 882,
+      "responseTimeMs": 1326,
       "error": null,
       "attempts": 1
     },
@@ -33,7 +33,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 1440,
+      "responseTimeMs": 2184,
       "error": null,
       "attempts": 1
     },
@@ -45,7 +45,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 391,
+      "responseTimeMs": 693,
       "error": null,
       "attempts": 1
     },
@@ -54,12 +54,12 @@
       "name": "Fawry",
       "category": "Payments",
       "url": "https://fawry.com/",
-      "status": "up",
-      "since": "2026-11-15T22:03:34Z",
-      "statusCode": 200,
-      "responseTimeMs": 791,
-      "error": null,
-      "attempts": 1
+      "status": "down",
+      "since": "2026-11-16T10:10:21Z",
+      "statusCode": null,
+      "responseTimeMs": null,
+      "error": "Timeout after 15000ms",
+      "attempts": 3
     },
     {
       "id": "digital-egypt",
@@ -81,7 +81,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 301,
-      "responseTimeMs": 2365,
+      "responseTimeMs": 2278,
       "error": null,
       "attempts": 1
     },
@@ -93,7 +93,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 1114,
+      "responseTimeMs": 2161,
       "error": null,
       "attempts": 1
     },
@@ -105,7 +105,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 302,
-      "responseTimeMs": 1084,
+      "responseTimeMs": 2513,
       "error": null,
       "attempts": 1
     },
@@ -117,7 +117,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 301,
-      "responseTimeMs": 1073,
+      "responseTimeMs": 2104,
       "error": null,
       "attempts": 1
     },
@@ -129,7 +129,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 302,
-      "responseTimeMs": 1250,
+      "responseTimeMs": 2314,
       "error": null,
       "attempts": 1
     },
@@ -141,7 +141,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 1623,
+      "responseTimeMs": 2733,
       "error": null,
       "attempts": 1
     },
@@ -153,7 +153,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 302,
-      "responseTimeMs": 1093,
+      "responseTimeMs": 2382,
       "error": null,
       "attempts": 1
     },
@@ -165,7 +165,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 403,
-      "responseTimeMs": 995,
+      "responseTimeMs": 1731,
       "error": null,
       "attempts": 1
     },
@@ -177,7 +177,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 1127,
+      "responseTimeMs": 2123,
       "error": null,
       "attempts": 1
     },
@@ -188,8 +188,8 @@
       "url": "https://www.masrawy.com/",
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
-      "statusCode": 403,
-      "responseTimeMs": 1006,
+      "statusCode": 200,
+      "responseTimeMs": 1977,
       "error": null,
       "attempts": 1
     },
@@ -201,7 +201,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 2019,
+      "responseTimeMs": 3246,
       "error": null,
       "attempts": 1
     }
