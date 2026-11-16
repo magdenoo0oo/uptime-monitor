@@ -4,7 +4,7 @@ Checked 20–30 times a day by [`collect.yml`](../.github/workflows/collect.yml)
 (exponential-backoff retries before a site counts as down). **Up** = the server answered with a status below 500
 within 15 s. Probes run from GitHub Actions runners (outside Egypt), so sites that block foreign traffic aren't listed.
 
-_Last check: 2026-11-16T09:03:11Z_
+_Last check: 2026-11-16T09:17:39Z_
 
 |  | Site | Category | Today | 7 days | 30 days | p95 (7d) |
 |---|---|---|---|---|---|---|
@@ -24,7 +24,7 @@ _Last check: 2026-11-16T09:03:11Z_
 | 🟢 | Al-Ahram | News | 100% | 100% | 100% | 2452 ms |
 | 🟢 | Youm7 | News | 100% | 100% | 100% | 2748 ms |
 | 🟢 | Masrawy | News | 100% | 100% | 100% | 2834 ms |
-| 🟢 | Cairo University | Education | 100% | 100% | 100% | 5563 ms |
+| 🟢 | Cairo University | Education | 100% | 100% | 100% | 6473 ms |
 
 ## Recent incidents
 
