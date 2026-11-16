@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-16T18:56:16Z",
+  "checkedAt": "2026-11-16T19:07:39Z",
   "sites": [
     {
       "id": "cbe",
@@ -9,7 +9,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 624,
+      "responseTimeMs": 450,
       "error": null,
       "attempts": 1
     },
@@ -21,7 +21,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 302,
-      "responseTimeMs": 1758,
+      "responseTimeMs": 932,
       "error": null,
       "attempts": 1
     },
@@ -33,7 +33,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 1979,
+      "responseTimeMs": 1535,
       "error": null,
       "attempts": 1
     },
@@ -45,7 +45,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 3188,
+      "responseTimeMs": 2189,
       "error": null,
       "attempts": 1
     },
@@ -57,7 +57,7 @@
       "status": "up",
       "since": "2026-11-16T18:56:16Z",
       "statusCode": 301,
-      "responseTimeMs": 7933,
+      "responseTimeMs": 2161,
       "error": null,
       "attempts": 1
     },
@@ -81,7 +81,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 301,
-      "responseTimeMs": 2092,
+      "responseTimeMs": 1792,
       "error": null,
       "attempts": 1
     },
@@ -93,7 +93,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 2697,
+      "responseTimeMs": 2124,
       "error": null,
       "attempts": 1
     },
@@ -105,7 +105,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 302,
-      "responseTimeMs": 3328,
+      "responseTimeMs": 2077,
       "error": null,
       "attempts": 1
     },
@@ -117,7 +117,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 301,
-      "responseTimeMs": 3684,
+      "responseTimeMs": 2383,
       "error": null,
       "attempts": 1
     },
@@ -129,7 +129,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 302,
-      "responseTimeMs": 3832,
+      "responseTimeMs": 2467,
       "error": null,
       "attempts": 1
     },
@@ -141,7 +141,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 4271,
+      "responseTimeMs": 4726,
       "error": null,
       "attempts": 1
     },
@@ -153,7 +153,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 302,
-      "responseTimeMs": 3821,
+      "responseTimeMs": 2322,
       "error": null,
       "attempts": 1
     },
@@ -165,7 +165,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 403,
-      "responseTimeMs": 3740,
+      "responseTimeMs": 2296,
       "error": null,
       "attempts": 1
     },
@@ -177,7 +177,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 4021,
+      "responseTimeMs": 2321,
       "error": null,
       "attempts": 1
     },
@@ -189,7 +189,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 4075,
+      "responseTimeMs": 2342,
       "error": null,
       "attempts": 1
     },
@@ -201,7 +201,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 4687,
+      "responseTimeMs": 2951,
       "error": null,
       "attempts": 1
     }
