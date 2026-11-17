@@ -1,6 +1,12 @@
 [
   {
     "site": "fawry",
+    "startedAt": "2026-11-17T10:49:08Z",
+    "resolvedAt": null,
+    "cause": "Timeout after 15000ms"
+  },
+  {
+    "site": "fawry",
     "startedAt": "2026-11-16T10:10:21Z",
     "resolvedAt": "2026-11-16T18:56:16Z",
     "cause": "Timeout after 15000ms"
