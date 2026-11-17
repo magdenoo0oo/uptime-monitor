@@ -2,8 +2,8 @@
   "date": "2026-11-17",
   "sites": {
     "cbe": {
-      "checks": 21,
-      "up": 21,
+      "checks": 22,
+      "up": 22,
       "responseTimesMs": [
         298,
         496,
@@ -25,13 +25,14 @@
         497,
         322,
         744,
-        502
+        502,
+        316
       ],
       "errors": {}
     },
     "nbe": {
-      "checks": 21,
-      "up": 21,
+      "checks": 22,
+      "up": 22,
       "responseTimesMs": [
         1394,
         1219,
@@ -53,13 +54,14 @@
         1131,
         1214,
         1789,
-        1202
+        1202,
+        810
       ],
       "errors": {}
     },
     "banque-misr": {
-      "checks": 21,
-      "up": 21,
+      "checks": 22,
+      "up": 22,
       "responseTimesMs": [
         1915,
         1977,
@@ -81,13 +83,14 @@
         1862,
         1728,
         1847,
-        2121
+        2121,
+        1441
       ],
       "errors": {}
     },
     "cib": {
-      "checks": 21,
-      "up": 21,
+      "checks": 22,
+      "up": 22,
       "responseTimesMs": [
         504,
         2774,
@@ -109,13 +112,14 @@
         2304,
         450,
         2896,
-        756
+        756,
+        426
       ],
       "errors": {}
     },
     "fawry": {
-      "checks": 21,
-      "up": 20,
+      "checks": 22,
+      "up": 21,
       "responseTimesMs": [
         1977,
         2160,
@@ -136,23 +140,24 @@
         2233,
         1518,
         2365,
-        2075
+        2075,
+        1771
       ],
       "errors": {
         "Timeout after 15000ms": 1
       }
     },
     "digital-egypt": {
-      "checks": 21,
+      "checks": 22,
       "up": 0,
       "responseTimesMs": [],
       "errors": {
-        "Connect Timeout Error (attempted address: digital.gov.eg:443, timeout: 10000ms)": 21
+        "Connect Timeout Error (attempted address: digital.gov.eg:443, timeout: 10000ms)": 22
       }
     },
     "eta": {
-      "checks": 21,
-      "up": 21,
+      "checks": 22,
+      "up": 22,
       "responseTimesMs": [
         1871,
         1847,
@@ -174,13 +179,14 @@
         2172,
         1553,
         1773,
-        2176
+        2176,
+        1562
       ],
       "errors": {}
     },
     "capmas": {
-      "checks": 21,
-      "up": 21,
+      "checks": 22,
+      "up": 22,
       "responseTimesMs": [
         1538,
         2149,
@@ -202,13 +208,14 @@
         2606,
         1459,
         2525,
-        2244
+        2244,
+        1286
       ],
       "errors": {}
     },
     "vodafone": {
-      "checks": 21,
-      "up": 21,
+      "checks": 22,
+      "up": 22,
       "responseTimesMs": [
         1980,
         2401,
@@ -230,13 +237,14 @@
         2412,
         1217,
         2306,
-        2058
+        2058,
+        1361
       ],
       "errors": {}
     },
     "orange": {
-      "checks": 21,
-      "up": 21,
+      "checks": 22,
+      "up": 22,
       "responseTimesMs": [
         1523,
         2184,
@@ -258,13 +266,14 @@
         2790,
         1515,
         2690,
-        3358
+        3358,
+        1635
       ],
       "errors": {}
     },
     "etisalat": {
-      "checks": 21,
-      "up": 21,
+      "checks": 22,
+      "up": 22,
       "responseTimesMs": [
         1754,
         2580,
@@ -286,13 +295,14 @@
         2936,
         1281,
         2759,
-        2214
+        2214,
+        1526
       ],
       "errors": {}
     },
     "we": {
-      "checks": 21,
-      "up": 21,
+      "checks": 22,
+      "up": 22,
       "responseTimesMs": [
         2180,
         3063,
@@ -314,13 +324,14 @@
         3180,
         1574,
         5176,
-        2632
+        2632,
+        1880
       ],
       "errors": {}
     },
     "egyptair": {
-      "checks": 21,
-      "up": 21,
+      "checks": 22,
+      "up": 22,
       "responseTimesMs": [
         1815,
         2228,
@@ -342,13 +353,14 @@
         2635,
         998,
         2754,
-        1853
+        1853,
+        1153
       ],
       "errors": {}
     },
     "ahram": {
-      "checks": 21,
-      "up": 21,
+      "checks": 22,
+      "up": 22,
       "responseTimesMs": [
         1188,
         2050,
@@ -370,13 +382,14 @@
         2441,
         811,
         2653,
-        1585
+        1585,
+        1083
       ],
       "errors": {}
     },
     "youm7": {
-      "checks": 21,
-      "up": 21,
+      "checks": 22,
+      "up": 22,
       "responseTimesMs": [
         1624,
         2314,
@@ -398,13 +411,14 @@
         2662,
         980,
         2686,
-        1959
+        1959,
+        1209
       ],
       "errors": {}
     },
     "masrawy": {
-      "checks": 21,
-      "up": 21,
+      "checks": 22,
+      "up": 22,
       "responseTimesMs": [
         1561,
         2363,
@@ -426,13 +440,14 @@
         2561,
         827,
         2738,
-        1766
+        1766,
+        1136
       ],
       "errors": {}
     },
     "cairo-university": {
-      "checks": 21,
-      "up": 21,
+      "checks": 22,
+      "up": 22,
       "responseTimesMs": [
         2140,
         2926,
@@ -454,7 +469,8 @@
         3248,
         1617,
         3307,
-        2669
+        2669,
+        1681
       ],
       "errors": {}
     }
