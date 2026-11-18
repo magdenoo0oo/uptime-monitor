@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-18T18:42:01Z",
+  "checkedAt": "2026-11-18T18:52:45Z",
   "sites": [
     {
       "id": "cbe",
@@ -9,7 +9,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 277,
+      "responseTimeMs": 342,
       "error": null,
       "attempts": 1
     },
@@ -21,7 +21,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 302,
-      "responseTimeMs": 780,
+      "responseTimeMs": 788,
       "error": null,
       "attempts": 1
     },
@@ -33,7 +33,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 1504,
+      "responseTimeMs": 1582,
       "error": null,
       "attempts": 1
     },
@@ -45,7 +45,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 404,
+      "responseTimeMs": 454,
       "error": null,
       "attempts": 1
     },
@@ -57,7 +57,7 @@
       "status": "up",
       "since": "2026-11-17T11:03:27Z",
       "statusCode": 200,
-      "responseTimeMs": 854,
+      "responseTimeMs": 944,
       "error": null,
       "attempts": 1
     },
@@ -81,7 +81,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 301,
-      "responseTimeMs": 2072,
+      "responseTimeMs": 1658,
       "error": null,
       "attempts": 1
     },
@@ -93,7 +93,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 1329,
+      "responseTimeMs": 1389,
       "error": null,
       "attempts": 1
     },
@@ -105,7 +105,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 302,
-      "responseTimeMs": 1268,
+      "responseTimeMs": 1341,
       "error": null,
       "attempts": 1
     },
@@ -117,7 +117,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 301,
-      "responseTimeMs": 1572,
+      "responseTimeMs": 1758,
       "error": null,
       "attempts": 1
     },
@@ -126,12 +126,12 @@
       "name": "e& Egypt",
       "category": "Telecom",
       "url": "https://www.etisalat.eg/",
-      "status": "down",
-      "since": "2026-11-18T18:42:01Z",
-      "statusCode": null,
-      "responseTimeMs": null,
-      "error": "Connection refused",
-      "attempts": 3
+      "status": "up",
+      "since": "2026-11-18T18:52:45Z",
+      "statusCode": 302,
+      "responseTimeMs": 1579,
+      "error": null,
+      "attempts": 1
     },
     {
       "id": "we",
@@ -141,7 +141,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 2517,
+      "responseTimeMs": 1803,
       "error": null,
       "attempts": 1
     },
@@ -153,7 +153,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 302,
-      "responseTimeMs": 1232,
+      "responseTimeMs": 1194,
       "error": null,
       "attempts": 1
     },
@@ -165,7 +165,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 403,
-      "responseTimeMs": 1147,
+      "responseTimeMs": 1083,
       "error": null,
       "attempts": 1
     },
@@ -177,7 +177,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 1282,
+      "responseTimeMs": 1243,
       "error": null,
       "attempts": 1
     },
@@ -189,7 +189,7 @@
       "status": "up",
       "since": "2026-11-18T18:42:01Z",
       "statusCode": 403,
-      "responseTimeMs": 1123,
+      "responseTimeMs": 1240,
       "error": null,
       "attempts": 1
     },
@@ -201,7 +201,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 1942,
+      "responseTimeMs": 1729,
       "error": null,
       "attempts": 1
     }
