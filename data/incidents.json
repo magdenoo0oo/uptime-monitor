@@ -1,8 +1,14 @@
 [
   {
+    "site": "etisalat",
+    "startedAt": "2026-11-18T18:42:01Z",
+    "resolvedAt": null,
+    "cause": "Connection refused"
+  },
+  {
     "site": "masrawy",
     "startedAt": "2026-11-18T18:31:59Z",
-    "resolvedAt": null,
+    "resolvedAt": "2026-11-18T18:42:01Z",
     "cause": "Timeout after 15000ms"
   },
   {

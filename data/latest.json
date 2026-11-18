@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-18T18:31:59Z",
+  "checkedAt": "2026-11-18T18:42:01Z",
   "sites": [
     {
       "id": "cbe",
@@ -9,7 +9,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 453,
+      "responseTimeMs": 277,
       "error": null,
       "attempts": 1
     },
@@ -21,7 +21,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 302,
-      "responseTimeMs": 1365,
+      "responseTimeMs": 780,
       "error": null,
       "attempts": 1
     },
@@ -33,7 +33,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 1548,
+      "responseTimeMs": 1504,
       "error": null,
       "attempts": 1
     },
@@ -45,7 +45,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 2406,
+      "responseTimeMs": 404,
       "error": null,
       "attempts": 1
     },
@@ -56,8 +56,8 @@
       "url": "https://fawry.com/",
       "status": "up",
       "since": "2026-11-17T11:03:27Z",
-      "statusCode": 301,
-      "responseTimeMs": 1897,
+      "statusCode": 200,
+      "responseTimeMs": 854,
       "error": null,
       "attempts": 1
     },
@@ -81,7 +81,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 301,
-      "responseTimeMs": 1573,
+      "responseTimeMs": 2072,
       "error": null,
       "attempts": 1
     },
@@ -93,7 +93,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 3182,
+      "responseTimeMs": 1329,
       "error": null,
       "attempts": 1
     },
@@ -105,7 +105,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 302,
-      "responseTimeMs": 2165,
+      "responseTimeMs": 1268,
       "error": null,
       "attempts": 1
     },
@@ -117,7 +117,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 301,
-      "responseTimeMs": 2439,
+      "responseTimeMs": 1572,
       "error": null,
       "attempts": 1
     },
@@ -126,12 +126,12 @@
       "name": "e& Egypt",
       "category": "Telecom",
       "url": "https://www.etisalat.eg/",
-      "status": "up",
-      "since": "2026-11-15T22:03:34Z",
-      "statusCode": 302,
-      "responseTimeMs": 2605,
-      "error": null,
-      "attempts": 1
+      "status": "down",
+      "since": "2026-11-18T18:42:01Z",
+      "statusCode": null,
+      "responseTimeMs": null,
+      "error": "Connection refused",
+      "attempts": 3
     },
     {
       "id": "we",
@@ -141,7 +141,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 5209,
+      "responseTimeMs": 2517,
       "error": null,
       "attempts": 1
     },
@@ -153,7 +153,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 302,
-      "responseTimeMs": 2410,
+      "responseTimeMs": 1232,
       "error": null,
       "attempts": 1
     },
@@ -165,7 +165,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 403,
-      "responseTimeMs": 2454,
+      "responseTimeMs": 1147,
       "error": null,
       "attempts": 1
     },
@@ -177,7 +177,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 3762,
+      "responseTimeMs": 1282,
       "error": null,
       "attempts": 1
     },
@@ -186,12 +186,12 @@
       "name": "Masrawy",
       "category": "News",
       "url": "https://www.masrawy.com/",
-      "status": "down",
-      "since": "2026-11-18T18:31:59Z",
-      "statusCode": null,
-      "responseTimeMs": null,
-      "error": "Timeout after 15000ms",
-      "attempts": 3
+      "status": "up",
+      "since": "2026-11-18T18:42:01Z",
+      "statusCode": 403,
+      "responseTimeMs": 1123,
+      "error": null,
+      "attempts": 1
     },
     {
       "id": "cairo-university",
@@ -201,7 +201,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 3207,
+      "responseTimeMs": 1942,
       "error": null,
       "attempts": 1
     }
