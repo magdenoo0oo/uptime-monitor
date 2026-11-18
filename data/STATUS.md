@@ -4,7 +4,7 @@ Checked 20–30 times a day by [`collect.yml`](../.github/workflows/collect.yml)
 (exponential-backoff retries before a site counts as down). **Up** = the server answered with a status below 500
 within 15 s. Probes run from GitHub Actions runners (outside Egypt), so sites that block foreign traffic aren't listed.
 
-_Last check: 2026-11-18T09:56:03Z_
+_Last check: 2026-11-18T10:04:39Z_
 
 |  | Site | Category | Today | 7 days | 30 days | p95 (7d) |
 |---|---|---|---|---|---|---|
@@ -12,7 +12,7 @@ _Last check: 2026-11-18T09:56:03Z_
 | 🟢 | National Bank of Egypt | Banks | 100% | 100% | 100% | 1758 ms |
 | 🟢 | Banque Misr | Banks | 100% | 100% | 100% | 2327 ms |
 | 🟢 | CIB | Banks | 100% | 100% | 100% | 3188 ms |
-| 🟢 | Fawry | Payments | 100% | 96.83% | 96.83% | 5078 ms |
+| 🟢 | Fawry | Payments | 100% | 96.88% | 96.88% | 5078 ms |
 | 🔴 | Digital Egypt | Government | 0.00% | 0.00% | 0.00% | — |
 | 🟢 | Egyptian Tax Authority | Government | 100% | 100% | 100% | 2365 ms |
 | 🟢 | CAPMAS | Government | 100% | 100% | 100% | 2813 ms |
