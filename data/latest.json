@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-19T17:59:17Z",
+  "checkedAt": "2026-11-19T18:12:07Z",
   "sites": [
     {
       "id": "cbe",
@@ -9,7 +9,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 519,
+      "responseTimeMs": 459,
       "error": null,
       "attempts": 1
     },
@@ -21,7 +21,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 302,
-      "responseTimeMs": 1392,
+      "responseTimeMs": 1697,
       "error": null,
       "attempts": 1
     },
@@ -33,7 +33,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 1904,
+      "responseTimeMs": 1792,
       "error": null,
       "attempts": 1
     },
@@ -42,12 +42,12 @@
       "name": "CIB",
       "category": "Banks",
       "url": "https://www.cibeg.com/",
-      "status": "up",
-      "since": "2026-11-15T22:03:34Z",
-      "statusCode": 200,
-      "responseTimeMs": 748,
-      "error": null,
-      "attempts": 1
+      "status": "down",
+      "since": "2026-11-19T18:12:07Z",
+      "statusCode": null,
+      "responseTimeMs": null,
+      "error": "Timeout after 15000ms",
+      "attempts": 3
     },
     {
       "id": "fawry",
@@ -57,7 +57,7 @@
       "status": "up",
       "since": "2026-11-17T11:03:27Z",
       "statusCode": 301,
-      "responseTimeMs": 2153,
+      "responseTimeMs": 2184,
       "error": null,
       "attempts": 1
     },
@@ -81,7 +81,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 301,
-      "responseTimeMs": 2155,
+      "responseTimeMs": 1748,
       "error": null,
       "attempts": 1
     },
@@ -93,7 +93,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 2207,
+      "responseTimeMs": 2315,
       "error": null,
       "attempts": 1
     },
@@ -105,7 +105,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 302,
-      "responseTimeMs": 2121,
+      "responseTimeMs": 2104,
       "error": null,
       "attempts": 1
     },
@@ -117,7 +117,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 301,
-      "responseTimeMs": 2509,
+      "responseTimeMs": 2446,
       "error": null,
       "attempts": 1
     },
@@ -129,7 +129,7 @@
       "status": "up",
       "since": "2026-11-18T18:52:45Z",
       "statusCode": 302,
-      "responseTimeMs": 2203,
+      "responseTimeMs": 2550,
       "error": null,
       "attempts": 1
     },
@@ -141,7 +141,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 3027,
+      "responseTimeMs": 4755,
       "error": null,
       "attempts": 1
     },
@@ -153,7 +153,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 302,
-      "responseTimeMs": 2100,
+      "responseTimeMs": 2386,
       "error": null,
       "attempts": 1
     },
@@ -165,7 +165,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 403,
-      "responseTimeMs": 1654,
+      "responseTimeMs": 2362,
       "error": null,
       "attempts": 1
     },
@@ -177,7 +177,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 2061,
+      "responseTimeMs": 2473,
       "error": null,
       "attempts": 1
     },
@@ -189,7 +189,7 @@
       "status": "up",
       "since": "2026-11-18T18:42:01Z",
       "statusCode": 200,
-      "responseTimeMs": 1694,
+      "responseTimeMs": 2521,
       "error": null,
       "attempts": 1
     },
@@ -201,7 +201,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 2984,
+      "responseTimeMs": 3130,
       "error": null,
       "attempts": 1
     }

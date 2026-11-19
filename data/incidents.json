@@ -1,5 +1,11 @@
 [
   {
+    "site": "cib",
+    "startedAt": "2026-11-19T18:12:07Z",
+    "resolvedAt": null,
+    "cause": "Timeout after 15000ms"
+  },
+  {
     "site": "etisalat",
     "startedAt": "2026-11-18T18:42:01Z",
     "resolvedAt": "2026-11-18T18:52:45Z",
