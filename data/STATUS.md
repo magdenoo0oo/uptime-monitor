@@ -4,27 +4,27 @@ Checked 20–30 times a day by [`collect.yml`](../.github/workflows/collect.yml)
 (exponential-backoff retries before a site counts as down). **Up** = the server answered with a status below 500
 within 15 s. Probes run from GitHub Actions runners (outside Egypt), so sites that block foreign traffic aren't listed.
 
-_Last check: 2026-11-19T08:06:23Z_
+_Last check: 2026-11-19T08:19:25Z_
 
 |  | Site | Category | Today | 7 days | 30 days | p95 (7d) |
 |---|---|---|---|---|---|---|
-| 🟢 | Central Bank of Egypt | Banks | 100% | 100% | 100% | 820 ms |
+| 🟢 | Central Bank of Egypt | Banks | 100% | 100% | 100% | 744 ms |
 | 🟢 | National Bank of Egypt | Banks | 100% | 100% | 100% | 1758 ms |
-| 🟢 | Banque Misr | Banks | 100% | 100% | 100% | 2327 ms |
-| 🟢 | CIB | Banks | 100% | 100% | 100% | 3211 ms |
-| 🟢 | Fawry | Payments | 100% | 97.47% | 97.47% | 6759 ms |
+| 🟢 | Banque Misr | Banks | 100% | 100% | 100% | 2321 ms |
+| 🟢 | CIB | Banks | 100% | 100% | 100% | 3188 ms |
+| 🟢 | Fawry | Payments | 100% | 97.50% | 97.50% | 6759 ms |
 | 🔴 | Digital Egypt | Government | 0.00% | 0.00% | 0.00% | — |
-| 🟢 | Egyptian Tax Authority | Government | 100% | 100% | 100% | 2365 ms |
-| 🟢 | CAPMAS | Government | 100% | 100% | 100% | 2841 ms |
-| 🟢 | Vodafone Egypt | Telecom | 100% | 100% | 100% | 3426 ms |
-| 🟢 | Orange Egypt | Telecom | 100% | 100% | 100% | 3358 ms |
-| 🟢 | e& Egypt | Telecom | 100% | 98.73% | 98.73% | 3109 ms |
-| 🟢 | WE (Telecom Egypt) | Telecom | 100% | 100% | 100% | 5949 ms |
-| 🟢 | EgyptAir | Travel | 100% | 100% | 100% | 3821 ms |
-| 🟢 | Al-Ahram | News | 100% | 100% | 100% | 3740 ms |
-| 🟢 | Youm7 | News | 100% | 100% | 100% | 3940 ms |
-| 🟢 | Masrawy | News | 100% | 98.73% | 98.73% | 4075 ms |
-| 🟢 | Cairo University | Education | 100% | 100% | 100% | 7163 ms |
+| 🟢 | Egyptian Tax Authority | Government | 100% | 100% | 100% | 2284 ms |
+| 🟢 | CAPMAS | Government | 100% | 100% | 100% | 2813 ms |
+| 🟢 | Vodafone Egypt | Telecom | 100% | 100% | 100% | 3328 ms |
+| 🟢 | Orange Egypt | Telecom | 100% | 100% | 100% | 3056 ms |
+| 🟢 | e& Egypt | Telecom | 100% | 98.75% | 98.75% | 3109 ms |
+| 🟢 | WE (Telecom Egypt) | Telecom | 100% | 100% | 100% | 5904 ms |
+| 🟢 | EgyptAir | Travel | 100% | 100% | 100% | 3017 ms |
+| 🟢 | Al-Ahram | News | 100% | 100% | 100% | 2926 ms |
+| 🟢 | Youm7 | News | 100% | 100% | 100% | 3762 ms |
+| 🟢 | Masrawy | News | 100% | 98.75% | 98.75% | 4075 ms |
+| 🟢 | Cairo University | Education | 100% | 100% | 100% | 6473 ms |
 
 ## Recent incidents
 
