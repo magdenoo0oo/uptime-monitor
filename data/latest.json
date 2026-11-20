@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-20T21:48:59Z",
+  "checkedAt": "2026-11-20T21:58:36Z",
   "sites": [
     {
       "id": "cbe",
@@ -9,7 +9,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 2881,
+      "responseTimeMs": 551,
       "error": null,
       "attempts": 1
     },
@@ -21,7 +21,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 302,
-      "responseTimeMs": 4260,
+      "responseTimeMs": 1736,
       "error": null,
       "attempts": 1
     },
@@ -33,7 +33,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 4767,
+      "responseTimeMs": 1824,
       "error": null,
       "attempts": 1
     },
@@ -45,7 +45,7 @@
       "status": "up",
       "since": "2026-11-19T18:23:55Z",
       "statusCode": 200,
-      "responseTimeMs": 5120,
+      "responseTimeMs": 4016,
       "error": null,
       "attempts": 1
     },
@@ -57,7 +57,7 @@
       "status": "up",
       "since": "2026-11-17T11:03:27Z",
       "statusCode": 301,
-      "responseTimeMs": 4660,
+      "responseTimeMs": 2021,
       "error": null,
       "attempts": 1
     },
@@ -81,7 +81,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 301,
-      "responseTimeMs": 7494,
+      "responseTimeMs": 2012,
       "error": null,
       "attempts": 1
     },
@@ -93,9 +93,9 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 2617,
+      "responseTimeMs": 2477,
       "error": null,
-      "attempts": 2
+      "attempts": 1
     },
     {
       "id": "vodafone",
@@ -105,7 +105,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 302,
-      "responseTimeMs": 8443,
+      "responseTimeMs": 3564,
       "error": null,
       "attempts": 1
     },
@@ -117,7 +117,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 301,
-      "responseTimeMs": 8819,
+      "responseTimeMs": 2954,
       "error": null,
       "attempts": 1
     },
@@ -129,9 +129,9 @@
       "status": "up",
       "since": "2026-11-18T18:52:45Z",
       "statusCode": 302,
-      "responseTimeMs": 3127,
+      "responseTimeMs": 3055,
       "error": null,
-      "attempts": 2
+      "attempts": 1
     },
     {
       "id": "we",
@@ -141,9 +141,9 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 1318,
+      "responseTimeMs": 5690,
       "error": null,
-      "attempts": 2
+      "attempts": 1
     },
     {
       "id": "egyptair",
@@ -153,9 +153,9 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 302,
-      "responseTimeMs": 2674,
+      "responseTimeMs": 3191,
       "error": null,
-      "attempts": 2
+      "attempts": 1
     },
     {
       "id": "ahram",
@@ -165,9 +165,9 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 403,
-      "responseTimeMs": 29,
+      "responseTimeMs": 3355,
       "error": null,
-      "attempts": 2
+      "attempts": 1
     },
     {
       "id": "youm7",
@@ -177,9 +177,9 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 2049,
+      "responseTimeMs": 3697,
       "error": null,
-      "attempts": 2
+      "attempts": 1
     },
     {
       "id": "masrawy",
@@ -189,9 +189,9 @@
       "status": "up",
       "since": "2026-11-18T18:42:01Z",
       "statusCode": 200,
-      "responseTimeMs": 207,
+      "responseTimeMs": 3449,
       "error": null,
-      "attempts": 2
+      "attempts": 1
     },
     {
       "id": "cairo-university",
@@ -201,9 +201,9 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 4924,
+      "responseTimeMs": 4337,
       "error": null,
-      "attempts": 2
+      "attempts": 1
     }
   ]
 }
