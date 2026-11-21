@@ -4,15 +4,15 @@ Checked 20–30 times a day by [`collect.yml`](../.github/workflows/collect.yml)
 (exponential-backoff retries before a site counts as down). **Up** = the server answered with a status below 500
 within 15 s. Probes run from GitHub Actions runners (outside Egypt), so sites that block foreign traffic aren't listed.
 
-_Last check: 2026-11-21T18:05:21Z_
+_Last check: 2026-11-21T21:50:50Z_
 
 |  | Site | Category | Today | 7 days | 30 days | p95 (7d) |
 |---|---|---|---|---|---|---|
 | 🟢 | Central Bank of Egypt | Banks | 100% | 100% | 100% | 763 ms |
 | 🟢 | National Bank of Egypt | Banks | 100% | 100% | 100% | 1758 ms |
-| 🟢 | Banque Misr | Banks | 78.95% | 97.24% | 97.24% | 2305 ms |
+| 🟢 | Banque Misr | Banks | 80.00% | 97.26% | 97.26% | 2305 ms |
 | 🟢 | CIB | Banks | 100% | 99.31% | 99.31% | 3279 ms |
-| 🟢 | Fawry | Payments | 100% | 98.62% | 98.62% | 4397 ms |
+| 🔴 | Fawry | Payments | 95.00% | 97.94% | 97.94% | 4397 ms |
 | 🔴 | Digital Egypt | Government | 0.00% | 0.00% | 0.00% | — |
 | 🟢 | Egyptian Tax Authority | Government | 100% | 100% | 100% | 2432 ms |
 | 🟢 | CAPMAS | Government | 100% | 100% | 100% | 2800 ms |
@@ -30,6 +30,7 @@ _Last check: 2026-11-21T18:05:21Z_
 
 | Site | Started (UTC) | Resolved (UTC) | Cause |
 |---|---|---|---|
+| Fawry | 2026-11-21T21:50:50Z | ongoing | Timeout after 15000ms |
 | Banque Misr | 2026-11-21T10:04:40Z | 2026-11-21T10:16:30Z | Connect Timeout Error (attempted address: www.banquemisr.com:443, timeout: 10000ms) |
 | Banque Misr | 2026-11-21T09:19:43Z | 2026-11-21T09:42:15Z | Connect Timeout Error (attempted address: www.banquemisr.com:443, timeout: 10000ms) |
 | Banque Misr | 2026-11-21T08:54:21Z | 2026-11-21T09:07:22Z | Connect Timeout Error (attempted address: www.banquemisr.com:443, timeout: 10000ms) |

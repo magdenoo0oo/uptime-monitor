@@ -1,5 +1,11 @@
 [
   {
+    "site": "fawry",
+    "startedAt": "2026-11-21T21:50:50Z",
+    "resolvedAt": null,
+    "cause": "Timeout after 15000ms"
+  },
+  {
     "site": "banque-misr",
     "startedAt": "2026-11-21T10:04:40Z",
     "resolvedAt": "2026-11-21T10:16:30Z",
