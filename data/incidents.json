@@ -2,7 +2,7 @@
   {
     "site": "banque-misr",
     "startedAt": "2026-11-21T08:54:21Z",
-    "resolvedAt": null,
+    "resolvedAt": "2026-11-21T09:07:22Z",
     "cause": "Connect Timeout Error (attempted address: www.banquemisr.com:443, timeout: 10000ms)"
   },
   {
