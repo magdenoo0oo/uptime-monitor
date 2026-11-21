@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-21T10:04:40Z",
+  "checkedAt": "2026-11-21T10:16:30Z",
   "sites": [
     {
       "id": "cbe",
@@ -9,7 +9,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 484,
+      "responseTimeMs": 501,
       "error": null,
       "attempts": 1
     },
@@ -21,7 +21,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 302,
-      "responseTimeMs": 1423,
+      "responseTimeMs": 1356,
       "error": null,
       "attempts": 1
     },
@@ -30,12 +30,12 @@
       "name": "Banque Misr",
       "category": "Banks",
       "url": "https://www.banquemisr.com/",
-      "status": "down",
-      "since": "2026-11-21T10:04:40Z",
-      "statusCode": null,
-      "responseTimeMs": null,
-      "error": "Connect Timeout Error (attempted address: www.banquemisr.com:443, timeout: 10000ms)",
-      "attempts": 3
+      "status": "up",
+      "since": "2026-11-21T10:16:30Z",
+      "statusCode": 200,
+      "responseTimeMs": 2090,
+      "error": null,
+      "attempts": 1
     },
     {
       "id": "cib",
@@ -45,7 +45,7 @@
       "status": "up",
       "since": "2026-11-19T18:23:55Z",
       "statusCode": 200,
-      "responseTimeMs": 757,
+      "responseTimeMs": 689,
       "error": null,
       "attempts": 1
     },
@@ -57,7 +57,7 @@
       "status": "up",
       "since": "2026-11-17T11:03:27Z",
       "statusCode": 301,
-      "responseTimeMs": 2959,
+      "responseTimeMs": 2247,
       "error": null,
       "attempts": 1
     },
@@ -81,7 +81,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 301,
-      "responseTimeMs": 1874,
+      "responseTimeMs": 2094,
       "error": null,
       "attempts": 1
     },
@@ -93,7 +93,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 2076,
+      "responseTimeMs": 2166,
       "error": null,
       "attempts": 1
     },
@@ -105,7 +105,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 302,
-      "responseTimeMs": 2385,
+      "responseTimeMs": 2007,
       "error": null,
       "attempts": 1
     },
@@ -117,7 +117,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 301,
-      "responseTimeMs": 2028,
+      "responseTimeMs": 1976,
       "error": null,
       "attempts": 1
     },
@@ -129,7 +129,7 @@
       "status": "up",
       "since": "2026-11-18T18:52:45Z",
       "statusCode": 302,
-      "responseTimeMs": 2227,
+      "responseTimeMs": 2175,
       "error": null,
       "attempts": 1
     },
@@ -141,7 +141,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 2681,
+      "responseTimeMs": 2935,
       "error": null,
       "attempts": 1
     },
@@ -153,7 +153,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 302,
-      "responseTimeMs": 2293,
+      "responseTimeMs": 2044,
       "error": null,
       "attempts": 1
     },
@@ -165,7 +165,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 403,
-      "responseTimeMs": 1637,
+      "responseTimeMs": 1553,
       "error": null,
       "attempts": 1
     },
@@ -177,7 +177,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 2172,
+      "responseTimeMs": 1934,
       "error": null,
       "attempts": 1
     },
@@ -189,7 +189,7 @@
       "status": "up",
       "since": "2026-11-18T18:42:01Z",
       "statusCode": 200,
-      "responseTimeMs": 2167,
+      "responseTimeMs": 1758,
       "error": null,
       "attempts": 1
     },
@@ -201,7 +201,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 3509,
+      "responseTimeMs": 2469,
       "error": null,
       "attempts": 1
     }
