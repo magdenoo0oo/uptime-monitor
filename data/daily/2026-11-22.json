@@ -1,0 +1,141 @@
+{
+  "date": "2026-11-22",
+  "sites": {
+    "cbe": {
+      "checks": 1,
+      "up": 1,
+      "responseTimesMs": [
+        476
+      ],
+      "errors": {}
+    },
+    "nbe": {
+      "checks": 1,
+      "up": 1,
+      "responseTimesMs": [
+        1115
+      ],
+      "errors": {}
+    },
+    "banque-misr": {
+      "checks": 1,
+      "up": 1,
+      "responseTimesMs": [
+        1811
+      ],
+      "errors": {}
+    },
+    "cib": {
+      "checks": 1,
+      "up": 1,
+      "responseTimesMs": [
+        3289
+      ],
+      "errors": {}
+    },
+    "fawry": {
+      "checks": 1,
+      "up": 1,
+      "responseTimesMs": [
+        2526
+      ],
+      "errors": {}
+    },
+    "digital-egypt": {
+      "checks": 1,
+      "up": 0,
+      "responseTimesMs": [],
+      "errors": {
+        "Connect Timeout Error (attempted address: digital.gov.eg:443, timeout: 10000ms)": 1
+      }
+    },
+    "eta": {
+      "checks": 1,
+      "up": 1,
+      "responseTimesMs": [
+        1914
+      ],
+      "errors": {}
+    },
+    "capmas": {
+      "checks": 1,
+      "up": 1,
+      "responseTimesMs": [
+        2285
+      ],
+      "errors": {}
+    },
+    "vodafone": {
+      "checks": 1,
+      "up": 1,
+      "responseTimesMs": [
+        2254
+      ],
+      "errors": {}
+    },
+    "orange": {
+      "checks": 1,
+      "up": 1,
+      "responseTimesMs": [
+        2321
+      ],
+      "errors": {}
+    },
+    "etisalat": {
+      "checks": 1,
+      "up": 1,
+      "responseTimesMs": [
+        2682
+      ],
+      "errors": {}
+    },
+    "we": {
+      "checks": 1,
+      "up": 1,
+      "responseTimesMs": [
+        5309
+      ],
+      "errors": {}
+    },
+    "egyptair": {
+      "checks": 1,
+      "up": 1,
+      "responseTimesMs": [
+        2787
+      ],
+      "errors": {}
+    },
+    "ahram": {
+      "checks": 1,
+      "up": 1,
+      "responseTimesMs": [
+        2363
+      ],
+      "errors": {}
+    },
+    "youm7": {
+      "checks": 1,
+      "up": 1,
+      "responseTimesMs": [
+        2520
+      ],
+      "errors": {}
+    },
+    "masrawy": {
+      "checks": 1,
+      "up": 1,
+      "responseTimesMs": [
+        2479
+      ],
+      "errors": {}
+    },
+    "cairo-university": {
+      "checks": 1,
+      "up": 1,
+      "responseTimesMs": [
+        3418
+      ],
+      "errors": {}
+    }
+  }
+}
