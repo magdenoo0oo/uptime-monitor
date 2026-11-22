@@ -8,7 +8,7 @@
   {
     "site": "banque-misr",
     "startedAt": "2026-11-22T10:06:37Z",
-    "resolvedAt": null,
+    "resolvedAt": "2026-11-22T10:18:05Z",
     "cause": "TLS error: UNABLE_TO_GET_ISSUER_CERT_LOCALLY"
   },
   {
