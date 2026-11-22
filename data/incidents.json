@@ -1,5 +1,17 @@
 [
   {
+    "site": "eta",
+    "startedAt": "2026-11-22T10:06:37Z",
+    "resolvedAt": null,
+    "cause": "Connection reset"
+  },
+  {
+    "site": "banque-misr",
+    "startedAt": "2026-11-22T10:06:37Z",
+    "resolvedAt": null,
+    "cause": "TLS error: UNABLE_TO_GET_ISSUER_CERT_LOCALLY"
+  },
+  {
     "site": "fawry",
     "startedAt": "2026-11-21T21:50:50Z",
     "resolvedAt": "2026-11-21T22:03:26Z",

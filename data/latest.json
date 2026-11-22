@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-22T09:55:34Z",
+  "checkedAt": "2026-11-22T10:06:37Z",
   "sites": [
     {
       "id": "cbe",
@@ -9,7 +9,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 413,
+      "responseTimeMs": 330,
       "error": null,
       "attempts": 1
     },
@@ -21,7 +21,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 302,
-      "responseTimeMs": 975,
+      "responseTimeMs": 790,
       "error": null,
       "attempts": 1
     },
@@ -30,12 +30,12 @@
       "name": "Banque Misr",
       "category": "Banks",
       "url": "https://www.banquemisr.com/",
-      "status": "up",
-      "since": "2026-11-21T10:16:30Z",
-      "statusCode": 200,
-      "responseTimeMs": 1568,
-      "error": null,
-      "attempts": 1
+      "status": "down",
+      "since": "2026-11-22T10:06:37Z",
+      "statusCode": null,
+      "responseTimeMs": null,
+      "error": "TLS error: UNABLE_TO_GET_ISSUER_CERT_LOCALLY",
+      "attempts": 3
     },
     {
       "id": "cib",
@@ -45,7 +45,7 @@
       "status": "up",
       "since": "2026-11-19T18:23:55Z",
       "statusCode": 200,
-      "responseTimeMs": 2560,
+      "responseTimeMs": 427,
       "error": null,
       "attempts": 1
     },
@@ -57,7 +57,7 @@
       "status": "up",
       "since": "2026-11-21T22:03:26Z",
       "statusCode": 301,
-      "responseTimeMs": 1858,
+      "responseTimeMs": 1500,
       "error": null,
       "attempts": 1
     },
@@ -78,12 +78,12 @@
       "name": "Egyptian Tax Authority",
       "category": "Government",
       "url": "https://www.eta.gov.eg/",
-      "status": "up",
-      "since": "2026-11-15T22:03:34Z",
-      "statusCode": 301,
-      "responseTimeMs": 1684,
-      "error": null,
-      "attempts": 1
+      "status": "down",
+      "since": "2026-11-22T10:06:37Z",
+      "statusCode": null,
+      "responseTimeMs": null,
+      "error": "Connection reset",
+      "attempts": 3
     },
     {
       "id": "capmas",
@@ -93,7 +93,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 1785,
+      "responseTimeMs": 1512,
       "error": null,
       "attempts": 1
     },
@@ -105,7 +105,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 302,
-      "responseTimeMs": 1808,
+      "responseTimeMs": 1747,
       "error": null,
       "attempts": 1
     },
@@ -117,7 +117,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 301,
-      "responseTimeMs": 1888,
+      "responseTimeMs": 1496,
       "error": null,
       "attempts": 1
     },
@@ -129,7 +129,7 @@
       "status": "up",
       "since": "2026-11-18T18:52:45Z",
       "statusCode": 302,
-      "responseTimeMs": 2079,
+      "responseTimeMs": 1614,
       "error": null,
       "attempts": 1
     },
@@ -141,7 +141,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 2552,
+      "responseTimeMs": 2040,
       "error": null,
       "attempts": 1
     },
@@ -153,7 +153,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 302,
-      "responseTimeMs": 1777,
+      "responseTimeMs": 1496,
       "error": null,
       "attempts": 1
     },
@@ -165,7 +165,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 403,
-      "responseTimeMs": 1755,
+      "responseTimeMs": 1258,
       "error": null,
       "attempts": 1
     },
@@ -177,7 +177,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 1932,
+      "responseTimeMs": 1395,
       "error": null,
       "attempts": 1
     },
@@ -188,8 +188,8 @@
       "url": "https://www.masrawy.com/",
       "status": "up",
       "since": "2026-11-18T18:42:01Z",
-      "statusCode": 200,
-      "responseTimeMs": 1922,
+      "statusCode": 403,
+      "responseTimeMs": 1291,
       "error": null,
       "attempts": 1
     },
@@ -201,7 +201,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 6650,
+      "responseTimeMs": 2311,
       "error": null,
       "attempts": 1
     }
