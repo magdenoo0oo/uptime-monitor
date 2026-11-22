@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-22T16:56:49Z",
+  "checkedAt": "2026-11-22T17:09:35Z",
   "sites": [
     {
       "id": "cbe",
@@ -9,7 +9,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 477,
+      "responseTimeMs": 494,
       "error": null,
       "attempts": 1
     },
@@ -21,7 +21,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 302,
-      "responseTimeMs": 1141,
+      "responseTimeMs": 1395,
       "error": null,
       "attempts": 1
     },
@@ -33,7 +33,7 @@
       "status": "up",
       "since": "2026-11-22T10:18:05Z",
       "statusCode": 200,
-      "responseTimeMs": 1958,
+      "responseTimeMs": 1929,
       "error": null,
       "attempts": 1
     },
@@ -45,7 +45,7 @@
       "status": "up",
       "since": "2026-11-19T18:23:55Z",
       "statusCode": 200,
-      "responseTimeMs": 3859,
+      "responseTimeMs": 676,
       "error": null,
       "attempts": 1
     },
@@ -57,7 +57,7 @@
       "status": "up",
       "since": "2026-11-21T22:03:26Z",
       "statusCode": 301,
-      "responseTimeMs": 2094,
+      "responseTimeMs": 1843,
       "error": null,
       "attempts": 1
     },
@@ -78,12 +78,12 @@
       "name": "Egyptian Tax Authority",
       "category": "Government",
       "url": "https://www.eta.gov.eg/",
-      "status": "up",
-      "since": "2026-11-22T10:27:52Z",
-      "statusCode": 301,
-      "responseTimeMs": 1782,
-      "error": null,
-      "attempts": 1
+      "status": "down",
+      "since": "2026-11-22T17:09:35Z",
+      "statusCode": null,
+      "responseTimeMs": null,
+      "error": "Timeout after 15000ms",
+      "attempts": 3
     },
     {
       "id": "capmas",
@@ -93,7 +93,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 2227,
+      "responseTimeMs": 1999,
       "error": null,
       "attempts": 1
     },
@@ -105,7 +105,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 302,
-      "responseTimeMs": 2452,
+      "responseTimeMs": 1770,
       "error": null,
       "attempts": 1
     },
@@ -117,7 +117,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 301,
-      "responseTimeMs": 2269,
+      "responseTimeMs": 1799,
       "error": null,
       "attempts": 1
     },
@@ -129,7 +129,7 @@
       "status": "up",
       "since": "2026-11-18T18:52:45Z",
       "statusCode": 302,
-      "responseTimeMs": 2438,
+      "responseTimeMs": 2000,
       "error": null,
       "attempts": 1
     },
@@ -141,7 +141,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 5148,
+      "responseTimeMs": 2402,
       "error": null,
       "attempts": 1
     },
@@ -153,7 +153,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 302,
-      "responseTimeMs": 2451,
+      "responseTimeMs": 1559,
       "error": null,
       "attempts": 1
     },
@@ -165,7 +165,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 403,
-      "responseTimeMs": 1977,
+      "responseTimeMs": 1372,
       "error": null,
       "attempts": 1
     },
@@ -177,7 +177,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 2229,
+      "responseTimeMs": 1781,
       "error": null,
       "attempts": 1
     },
@@ -189,7 +189,7 @@
       "status": "up",
       "since": "2026-11-18T18:42:01Z",
       "statusCode": 200,
-      "responseTimeMs": 2221,
+      "responseTimeMs": 1596,
       "error": null,
       "attempts": 1
     },
@@ -201,7 +201,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 2851,
+      "responseTimeMs": 2287,
       "error": null,
       "attempts": 1
     }
