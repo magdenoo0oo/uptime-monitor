@@ -4,15 +4,15 @@ Checked 20–30 times a day by [`collect.yml`](../.github/workflows/collect.yml)
 (exponential-backoff retries before a site counts as down). **Up** = the server answered with a status below 500
 within 15 s. Probes run from GitHub Actions runners (outside Egypt), so sites that block foreign traffic aren't listed.
 
-_Last check: 2026-11-22T09:43:56Z_
+_Last check: 2026-11-22T09:55:34Z_
 
 |  | Site | Category | Today | 7 days | 30 days | p95 (7d) |
 |---|---|---|---|---|---|---|
 | 🟢 | Central Bank of Egypt | Banks | 100% | 100% | 100% | 744 ms |
 | 🟢 | National Bank of Egypt | Banks | 100% | 100% | 100% | 1758 ms |
-| 🟢 | Banque Misr | Banks | 100% | 97.22% | 97.42% | 2321 ms |
+| 🟢 | Banque Misr | Banks | 100% | 97.24% | 97.44% | 2321 ms |
 | 🟢 | CIB | Banks | 100% | 99.31% | 99.36% | 3289 ms |
-| 🟢 | Fawry | Payments | 100% | 97.92% | 98.06% | 4660 ms |
+| 🟢 | Fawry | Payments | 100% | 97.93% | 98.08% | 4660 ms |
 | 🔴 | Digital Egypt | Government | 0.00% | 0.00% | 0.00% | — |
 | 🟢 | Egyptian Tax Authority | Government | 100% | 100% | 100% | 2432 ms |
 | 🟢 | CAPMAS | Government | 100% | 100% | 100% | 2767 ms |
@@ -24,7 +24,7 @@ _Last check: 2026-11-22T09:43:56Z_
 | 🟢 | Al-Ahram | News | 100% | 100% | 100% | 2941 ms |
 | 🟢 | Youm7 | News | 100% | 100% | 100% | 3697 ms |
 | 🟢 | Masrawy | News | 100% | 99.31% | 99.36% | 3449 ms |
-| 🟢 | Cairo University | Education | 100% | 100% | 100% | 6009 ms |
+| 🟢 | Cairo University | Education | 100% | 100% | 100% | 6295 ms |
 
 ## Recent incidents
 
