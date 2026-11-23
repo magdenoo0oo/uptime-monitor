@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-23T12:52:18Z",
+  "checkedAt": "2026-11-23T13:04:30Z",
   "sites": [
     {
       "id": "cbe",
@@ -9,7 +9,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 505,
+      "responseTimeMs": 494,
       "error": null,
       "attempts": 1
     },
@@ -21,7 +21,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 302,
-      "responseTimeMs": 1186,
+      "responseTimeMs": 1314,
       "error": null,
       "attempts": 1
     },
@@ -33,7 +33,7 @@
       "status": "up",
       "since": "2026-11-22T10:18:05Z",
       "statusCode": 200,
-      "responseTimeMs": 1982,
+      "responseTimeMs": 2284,
       "error": null,
       "attempts": 1
     },
@@ -45,7 +45,7 @@
       "status": "up",
       "since": "2026-11-19T18:23:55Z",
       "statusCode": 200,
-      "responseTimeMs": 731,
+      "responseTimeMs": 690,
       "error": null,
       "attempts": 1
     },
@@ -59,7 +59,7 @@
       "statusCode": null,
       "responseTimeMs": null,
       "error": "Timeout after 15000ms",
-      "attempts": 3
+      "attempts": 1
     },
     {
       "id": "digital-egypt",
@@ -81,7 +81,7 @@
       "status": "up",
       "since": "2026-11-22T17:48:57Z",
       "statusCode": 301,
-      "responseTimeMs": 2176,
+      "responseTimeMs": 1995,
       "error": null,
       "attempts": 1
     },
@@ -93,7 +93,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 2203,
+      "responseTimeMs": 2152,
       "error": null,
       "attempts": 1
     },
@@ -102,11 +102,11 @@
       "name": "Vodafone Egypt",
       "category": "Telecom",
       "url": "https://web.vodafone.com.eg/",
-      "status": "up",
-      "since": "2026-11-15T22:03:34Z",
-      "statusCode": 302,
-      "responseTimeMs": 855,
-      "error": null,
+      "status": "down",
+      "since": "2026-11-23T13:04:30Z",
+      "statusCode": null,
+      "responseTimeMs": null,
+      "error": "Connect Timeout Error (attempted address: web.vodafone.com.eg:443, timeout: 10000ms)",
       "attempts": 3
     },
     {
@@ -117,7 +117,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 301,
-      "responseTimeMs": 2107,
+      "responseTimeMs": 2326,
       "error": null,
       "attempts": 1
     },
@@ -129,7 +129,7 @@
       "status": "up",
       "since": "2026-11-18T18:52:45Z",
       "statusCode": 302,
-      "responseTimeMs": 2325,
+      "responseTimeMs": 2715,
       "error": null,
       "attempts": 1
     },
@@ -141,7 +141,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 2658,
+      "responseTimeMs": 4149,
       "error": null,
       "attempts": 1
     },
@@ -153,7 +153,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 302,
-      "responseTimeMs": 1972,
+      "responseTimeMs": 2646,
       "error": null,
       "attempts": 1
     },
@@ -165,7 +165,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 403,
-      "responseTimeMs": 1570,
+      "responseTimeMs": 2174,
       "error": null,
       "attempts": 1
     },
@@ -177,7 +177,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 1921,
+      "responseTimeMs": 2400,
       "error": null,
       "attempts": 1
     },
@@ -189,7 +189,7 @@
       "status": "up",
       "since": "2026-11-18T18:42:01Z",
       "statusCode": 200,
-      "responseTimeMs": 1796,
+      "responseTimeMs": 2218,
       "error": null,
       "attempts": 1
     },
@@ -201,7 +201,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 2994,
+      "responseTimeMs": 3640,
       "error": null,
       "attempts": 1
     }

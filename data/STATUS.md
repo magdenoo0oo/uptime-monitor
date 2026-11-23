@@ -4,19 +4,19 @@ Checked 20–30 times a day by [`collect.yml`](../.github/workflows/collect.yml)
 (exponential-backoff retries before a site counts as down). **Up** = the server answered with a status below 500
 within 15 s. Probes run from GitHub Actions runners (outside Egypt), so sites that block foreign traffic aren't listed.
 
-_Last check: 2026-11-23T12:52:18Z_
+_Last check: 2026-11-23T13:04:30Z_
 
 |  | Site | Category | Today | 7 days | 30 days | p95 (7d) |
 |---|---|---|---|---|---|---|
 | 🟢 | Central Bank of Egypt | Banks | 100% | 100% | 100% | 763 ms |
 | 🟢 | National Bank of Egypt | Banks | 100% | 100% | 100% | 1724 ms |
-| 🟢 | Banque Misr | Banks | 100% | 96.73% | 97.25% | 2321 ms |
+| 🟢 | Banque Misr | Banks | 100% | 96.75% | 97.27% | 2321 ms |
 | 🟢 | CIB | Banks | 100% | 99.35% | 99.45% | 3315 ms |
-| 🔴 | Fawry | Payments | 91.67% | 98.04% | 97.80% | 4397 ms |
+| 🔴 | Fawry | Payments | 84.61% | 97.40% | 97.27% | 4397 ms |
 | 🔴 | Digital Egypt | Government | 0.00% | 0.00% | 0.00% | — |
-| 🟢 | Egyptian Tax Authority | Government | 100% | 96.73% | 97.25% | 2427 ms |
+| 🟢 | Egyptian Tax Authority | Government | 100% | 96.75% | 97.27% | 2427 ms |
 | 🟢 | CAPMAS | Government | 100% | 100% | 100% | 2767 ms |
-| 🟢 | Vodafone Egypt | Telecom | 100% | 100% | 100% | 3009 ms |
+| 🔴 | Vodafone Egypt | Telecom | 92.31% | 99.35% | 99.45% | 3009 ms |
 | 🟢 | Orange Egypt | Telecom | 100% | 100% | 100% | 3055 ms |
 | 🟢 | e& Egypt | Telecom | 100% | 99.35% | 99.45% | 3109 ms |
 | 🟢 | WE (Telecom Egypt) | Telecom | 100% | 100% | 100% | 5873 ms |
@@ -30,6 +30,7 @@ _Last check: 2026-11-23T12:52:18Z_
 
 | Site | Started (UTC) | Resolved (UTC) | Cause |
 |---|---|---|---|
+| Vodafone Egypt | 2026-11-23T13:04:30Z | ongoing | Connect Timeout Error (attempted address: web.vodafone.com.eg:443, timeout: 10000ms) |
 | Fawry | 2026-11-23T12:52:18Z | ongoing | Timeout after 15000ms |
 | Egyptian Tax Authority | 2026-11-22T17:09:35Z | 2026-11-22T17:48:57Z | Timeout after 15000ms |
 | Egyptian Tax Authority | 2026-11-22T10:06:37Z | 2026-11-22T10:27:52Z | Connection reset |
