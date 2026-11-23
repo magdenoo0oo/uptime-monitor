@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-23T13:04:30Z",
+  "checkedAt": "2026-11-23T22:45:45Z",
   "sites": [
     {
       "id": "cbe",
@@ -9,7 +9,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 494,
+      "responseTimeMs": 479,
       "error": null,
       "attempts": 1
     },
@@ -21,7 +21,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 302,
-      "responseTimeMs": 1314,
+      "responseTimeMs": 1287,
       "error": null,
       "attempts": 1
     },
@@ -33,7 +33,7 @@
       "status": "up",
       "since": "2026-11-22T10:18:05Z",
       "statusCode": 200,
-      "responseTimeMs": 2284,
+      "responseTimeMs": 2034,
       "error": null,
       "attempts": 1
     },
@@ -45,7 +45,7 @@
       "status": "up",
       "since": "2026-11-19T18:23:55Z",
       "statusCode": 200,
-      "responseTimeMs": 690,
+      "responseTimeMs": 2412,
       "error": null,
       "attempts": 1
     },
@@ -54,11 +54,11 @@
       "name": "Fawry",
       "category": "Payments",
       "url": "https://fawry.com/",
-      "status": "down",
-      "since": "2026-11-23T12:52:18Z",
-      "statusCode": null,
-      "responseTimeMs": null,
-      "error": "Timeout after 15000ms",
+      "status": "up",
+      "since": "2026-11-23T22:45:45Z",
+      "statusCode": 301,
+      "responseTimeMs": 1898,
+      "error": null,
       "attempts": 1
     },
     {
@@ -81,7 +81,7 @@
       "status": "up",
       "since": "2026-11-22T17:48:57Z",
       "statusCode": 301,
-      "responseTimeMs": 1995,
+      "responseTimeMs": 1910,
       "error": null,
       "attempts": 1
     },
@@ -93,7 +93,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 2152,
+      "responseTimeMs": 2378,
       "error": null,
       "attempts": 1
     },
@@ -102,12 +102,12 @@
       "name": "Vodafone Egypt",
       "category": "Telecom",
       "url": "https://web.vodafone.com.eg/",
-      "status": "down",
-      "since": "2026-11-23T13:04:30Z",
-      "statusCode": null,
-      "responseTimeMs": null,
-      "error": "Connect Timeout Error (attempted address: web.vodafone.com.eg:443, timeout: 10000ms)",
-      "attempts": 3
+      "status": "up",
+      "since": "2026-11-23T22:45:45Z",
+      "statusCode": 302,
+      "responseTimeMs": 1940,
+      "error": null,
+      "attempts": 1
     },
     {
       "id": "orange",
@@ -117,7 +117,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 301,
-      "responseTimeMs": 2326,
+      "responseTimeMs": 2154,
       "error": null,
       "attempts": 1
     },
@@ -129,7 +129,7 @@
       "status": "up",
       "since": "2026-11-18T18:52:45Z",
       "statusCode": 302,
-      "responseTimeMs": 2715,
+      "responseTimeMs": 2784,
       "error": null,
       "attempts": 1
     },
@@ -141,7 +141,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 4149,
+      "responseTimeMs": 4374,
       "error": null,
       "attempts": 1
     },
@@ -153,7 +153,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 302,
-      "responseTimeMs": 2646,
+      "responseTimeMs": 2554,
       "error": null,
       "attempts": 1
     },
@@ -165,7 +165,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 403,
-      "responseTimeMs": 2174,
+      "responseTimeMs": 2543,
       "error": null,
       "attempts": 1
     },
@@ -177,7 +177,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 2400,
+      "responseTimeMs": 2657,
       "error": null,
       "attempts": 1
     },
@@ -189,7 +189,7 @@
       "status": "up",
       "since": "2026-11-18T18:42:01Z",
       "statusCode": 200,
-      "responseTimeMs": 2218,
+      "responseTimeMs": 2689,
       "error": null,
       "attempts": 1
     },
@@ -201,7 +201,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 3640,
+      "responseTimeMs": 3315,
       "error": null,
       "attempts": 1
     }

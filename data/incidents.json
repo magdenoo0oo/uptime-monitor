@@ -2,13 +2,13 @@
   {
     "site": "vodafone",
     "startedAt": "2026-11-23T13:04:30Z",
-    "resolvedAt": null,
+    "resolvedAt": "2026-11-23T22:45:45Z",
     "cause": "Connect Timeout Error (attempted address: web.vodafone.com.eg:443, timeout: 10000ms)"
   },
   {
     "site": "fawry",
     "startedAt": "2026-11-23T12:52:18Z",
-    "resolvedAt": null,
+    "resolvedAt": "2026-11-23T22:45:45Z",
     "cause": "Timeout after 15000ms"
   },
   {
