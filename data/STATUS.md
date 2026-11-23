@@ -4,25 +4,25 @@ Checked 20–30 times a day by [`collect.yml`](../.github/workflows/collect.yml)
 (exponential-backoff retries before a site counts as down). **Up** = the server answered with a status below 500
 within 15 s. Probes run from GitHub Actions runners (outside Egypt), so sites that block foreign traffic aren't listed.
 
-_Last check: 2026-11-23T23:42:45Z_
+_Last check: 2026-11-23T23:54:32Z_
 
 |  | Site | Category | Today | 7 days | 30 days | p95 (7d) |
 |---|---|---|---|---|---|---|
-| 🟢 | Central Bank of Egypt | Banks | 100% | 100% | 100% | 744 ms |
+| 🟢 | Central Bank of Egypt | Banks | 100% | 100% | 100% | 763 ms |
 | 🟢 | National Bank of Egypt | Banks | 100% | 100% | 100% | 1704 ms |
-| 🟢 | Banque Misr | Banks | 100% | 96.88% | 97.35% | 2321 ms |
-| 🟢 | CIB | Banks | 100% | 99.38% | 99.47% | 3315 ms |
-| 🟢 | Fawry | Payments | 89.47% | 97.50% | 97.35% | 4397 ms |
+| 🟢 | Banque Misr | Banks | 100% | 96.89% | 97.37% | 2321 ms |
+| 🟢 | CIB | Banks | 100% | 99.38% | 99.47% | 3310 ms |
+| 🟢 | Fawry | Payments | 90.00% | 97.52% | 97.37% | 4660 ms |
 | 🔴 | Digital Egypt | Government | 0.00% | 0.00% | 0.00% | — |
-| 🟢 | Egyptian Tax Authority | Government | 100% | 96.88% | 97.35% | 2427 ms |
-| 🟢 | CAPMAS | Government | 100% | 100% | 100% | 2764 ms |
-| 🟢 | Vodafone Egypt | Telecom | 94.74% | 99.38% | 99.47% | 3009 ms |
+| 🟢 | Egyptian Tax Authority | Government | 100% | 96.89% | 97.37% | 2427 ms |
+| 🟢 | CAPMAS | Government | 100% | 100% | 100% | 2767 ms |
+| 🟢 | Vodafone Egypt | Telecom | 95.00% | 99.38% | 99.47% | 2989 ms |
 | 🟢 | Orange Egypt | Telecom | 100% | 100% | 100% | 3054 ms |
 | 🟢 | e& Egypt | Telecom | 100% | 99.38% | 99.47% | 3109 ms |
 | 🟢 | WE (Telecom Egypt) | Telecom | 100% | 100% | 100% | 5787 ms |
-| 🟢 | EgyptAir | Travel | 100% | 100% | 100% | 3017 ms |
-| 🟢 | Al-Ahram | News | 100% | 100% | 100% | 2820 ms |
-| 🟢 | Youm7 | News | 100% | 100% | 100% | 3232 ms |
+| 🟢 | EgyptAir | Travel | 100% | 100% | 100% | 3129 ms |
+| 🟢 | Al-Ahram | News | 100% | 100% | 100% | 2926 ms |
+| 🟢 | Youm7 | News | 100% | 100% | 100% | 3303 ms |
 | 🟢 | Masrawy | News | 100% | 99.38% | 99.47% | 3280 ms |
 | 🟢 | Cairo University | Education | 100% | 100% | 100% | 6295 ms |
 
