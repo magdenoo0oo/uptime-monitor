@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-23T12:39:01Z",
+  "checkedAt": "2026-11-23T12:52:18Z",
   "sites": [
     {
       "id": "cbe",
@@ -9,7 +9,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 476,
+      "responseTimeMs": 505,
       "error": null,
       "attempts": 1
     },
@@ -21,7 +21,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 302,
-      "responseTimeMs": 1149,
+      "responseTimeMs": 1186,
       "error": null,
       "attempts": 1
     },
@@ -33,7 +33,7 @@
       "status": "up",
       "since": "2026-11-22T10:18:05Z",
       "statusCode": 200,
-      "responseTimeMs": 1909,
+      "responseTimeMs": 1982,
       "error": null,
       "attempts": 1
     },
@@ -45,7 +45,7 @@
       "status": "up",
       "since": "2026-11-19T18:23:55Z",
       "statusCode": 200,
-      "responseTimeMs": 2740,
+      "responseTimeMs": 731,
       "error": null,
       "attempts": 1
     },
@@ -54,12 +54,12 @@
       "name": "Fawry",
       "category": "Payments",
       "url": "https://fawry.com/",
-      "status": "up",
-      "since": "2026-11-21T22:03:26Z",
-      "statusCode": 301,
-      "responseTimeMs": 2123,
-      "error": null,
-      "attempts": 1
+      "status": "down",
+      "since": "2026-11-23T12:52:18Z",
+      "statusCode": null,
+      "responseTimeMs": null,
+      "error": "Timeout after 15000ms",
+      "attempts": 3
     },
     {
       "id": "digital-egypt",
@@ -81,7 +81,7 @@
       "status": "up",
       "since": "2026-11-22T17:48:57Z",
       "statusCode": 301,
-      "responseTimeMs": 1860,
+      "responseTimeMs": 2176,
       "error": null,
       "attempts": 1
     },
@@ -93,7 +93,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 2326,
+      "responseTimeMs": 2203,
       "error": null,
       "attempts": 1
     },
@@ -105,9 +105,9 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 302,
-      "responseTimeMs": 1925,
+      "responseTimeMs": 855,
       "error": null,
-      "attempts": 1
+      "attempts": 3
     },
     {
       "id": "orange",
@@ -117,7 +117,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 301,
-      "responseTimeMs": 2014,
+      "responseTimeMs": 2107,
       "error": null,
       "attempts": 1
     },
@@ -129,7 +129,7 @@
       "status": "up",
       "since": "2026-11-18T18:52:45Z",
       "statusCode": 302,
-      "responseTimeMs": 2189,
+      "responseTimeMs": 2325,
       "error": null,
       "attempts": 1
     },
@@ -141,7 +141,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 4567,
+      "responseTimeMs": 2658,
       "error": null,
       "attempts": 1
     },
@@ -153,7 +153,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 302,
-      "responseTimeMs": 2304,
+      "responseTimeMs": 1972,
       "error": null,
       "attempts": 1
     },
@@ -165,7 +165,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 403,
-      "responseTimeMs": 2099,
+      "responseTimeMs": 1570,
       "error": null,
       "attempts": 1
     },
@@ -177,7 +177,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 2429,
+      "responseTimeMs": 1921,
       "error": null,
       "attempts": 1
     },
@@ -189,7 +189,7 @@
       "status": "up",
       "since": "2026-11-18T18:42:01Z",
       "statusCode": 200,
-      "responseTimeMs": 2298,
+      "responseTimeMs": 1796,
       "error": null,
       "attempts": 1
     },
@@ -201,7 +201,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 3407,
+      "responseTimeMs": 2994,
       "error": null,
       "attempts": 1
     }
