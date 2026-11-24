@@ -4,26 +4,26 @@ Checked 20–30 times a day by [`collect.yml`](../.github/workflows/collect.yml)
 (exponential-backoff retries before a site counts as down). **Up** = the server answered with a status below 500
 within 15 s. Probes run from GitHub Actions runners (outside Egypt), so sites that block foreign traffic aren't listed.
 
-_Last check: 2026-11-24T18:11:41Z_
+_Last check: 2026-11-24T18:22:04Z_
 
 |  | Site | Category | Today | 7 days | 30 days | p95 (7d) |
 |---|---|---|---|---|---|---|
 | 🟢 | Central Bank of Egypt | Banks | 100% | 100% | 100% | 735 ms |
 | 🟢 | National Bank of Egypt | Banks | 100% | 100% | 100% | 1695 ms |
-| 🟢 | Banque Misr | Banks | 100% | 96.45% | 97.47% | 2321 ms |
-| 🟢 | CIB | Banks | 100% | 99.29% | 99.50% | 3315 ms |
-| 🟢 | Fawry | Payments | 100% | 97.87% | 97.47% | 4397 ms |
+| 🟢 | Banque Misr | Banks | 100% | 96.48% | 97.49% | 2374 ms |
+| 🟢 | CIB | Banks | 100% | 99.30% | 99.50% | 3315 ms |
+| 🟢 | Fawry | Payments | 100% | 97.89% | 97.49% | 4660 ms |
 | 🔴 | Digital Egypt | Government | 0.00% | 0.00% | 0.00% | — |
-| 🟢 | Egyptian Tax Authority | Government | 100% | 96.45% | 97.47% | 2557 ms |
+| 🟢 | Egyptian Tax Authority | Government | 100% | 96.48% | 97.49% | 2557 ms |
 | 🟢 | CAPMAS | Government | 100% | 100% | 100% | 2800 ms |
-| 🟢 | Vodafone Egypt | Telecom | 100% | 99.29% | 99.50% | 3009 ms |
+| 🟢 | Vodafone Egypt | Telecom | 100% | 99.30% | 99.50% | 3009 ms |
 | 🟢 | Orange Egypt | Telecom | 100% | 100% | 100% | 3055 ms |
-| 🟢 | e& Egypt | Telecom | 100% | 99.29% | 99.50% | 3127 ms |
+| 🟢 | e& Egypt | Telecom | 100% | 99.30% | 99.50% | 3127 ms |
 | 🟢 | WE (Telecom Egypt) | Telecom | 100% | 100% | 100% | 5691 ms |
 | 🟢 | EgyptAir | Travel | 100% | 100% | 100% | 3155 ms |
 | 🟢 | Al-Ahram | News | 100% | 100% | 100% | 2941 ms |
 | 🟢 | Youm7 | News | 100% | 100% | 100% | 3444 ms |
-| 🟢 | Masrawy | News | 100% | 99.29% | 99.50% | 3262 ms |
+| 🟢 | Masrawy | News | 100% | 99.30% | 99.50% | 3262 ms |
 | 🟢 | Cairo University | Education | 100% | 100% | 100% | 6650 ms |
 
 ## Recent incidents
