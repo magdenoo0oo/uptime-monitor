@@ -4,26 +4,26 @@ Checked 20–30 times a day by [`collect.yml`](../.github/workflows/collect.yml)
 (exponential-backoff retries before a site counts as down). **Up** = the server answered with a status below 500
 within 15 s. Probes run from GitHub Actions runners (outside Egypt), so sites that block foreign traffic aren't listed.
 
-_Last check: 2026-11-24T06:40:51Z_
+_Last check: 2026-11-24T06:49:34Z_
 
 |  | Site | Category | Today | 7 days | 30 days | p95 (7d) |
 |---|---|---|---|---|---|---|
 | 🟢 | Central Bank of Egypt | Banks | 100% | 100% | 100% | 763 ms |
 | 🟢 | National Bank of Egypt | Banks | 100% | 100% | 100% | 1697 ms |
-| 🟢 | Banque Misr | Banks | 100% | 96.30% | 97.40% | 2296 ms |
-| 🟢 | CIB | Banks | 100% | 99.26% | 99.48% | 3324 ms |
-| 🟢 | Fawry | Payments | 100% | 97.78% | 97.40% | 4397 ms |
+| 🟢 | Banque Misr | Banks | 100% | 96.32% | 97.41% | 2305 ms |
+| 🟢 | CIB | Banks | 100% | 99.27% | 99.48% | 3324 ms |
+| 🟢 | Fawry | Payments | 100% | 97.79% | 97.41% | 4397 ms |
 | 🔴 | Digital Egypt | Government | 0.00% | 0.00% | 0.00% | — |
-| 🟢 | Egyptian Tax Authority | Government | 100% | 96.30% | 97.40% | 2432 ms |
+| 🟢 | Egyptian Tax Authority | Government | 100% | 96.32% | 97.41% | 2432 ms |
 | 🟢 | CAPMAS | Government | 100% | 100% | 100% | 2800 ms |
-| 🟢 | Vodafone Egypt | Telecom | 100% | 99.26% | 99.48% | 3009 ms |
+| 🟢 | Vodafone Egypt | Telecom | 100% | 99.27% | 99.48% | 3009 ms |
 | 🟢 | Orange Egypt | Telecom | 100% | 100% | 100% | 3054 ms |
-| 🟢 | e& Egypt | Telecom | 100% | 99.26% | 99.48% | 3117 ms |
-| 🟢 | WE (Telecom Egypt) | Telecom | 100% | 100% | 100% | 5690 ms |
+| 🟢 | e& Egypt | Telecom | 100% | 99.27% | 99.48% | 3117 ms |
+| 🟢 | WE (Telecom Egypt) | Telecom | 100% | 100% | 100% | 5691 ms |
 | 🟢 | EgyptAir | Travel | 100% | 100% | 100% | 3134 ms |
 | 🟢 | Al-Ahram | News | 100% | 100% | 100% | 2941 ms |
 | 🟢 | Youm7 | News | 100% | 100% | 100% | 3303 ms |
-| 🟢 | Masrawy | News | 100% | 99.26% | 99.48% | 3262 ms |
+| 🟢 | Masrawy | News | 100% | 99.27% | 99.48% | 3262 ms |
 | 🟢 | Cairo University | Education | 100% | 100% | 100% | 6650 ms |
 
 ## Recent incidents
