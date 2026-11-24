@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-24T19:47:09Z",
+  "checkedAt": "2026-11-24T20:01:30Z",
   "sites": [
     {
       "id": "cbe",
@@ -9,7 +9,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 329,
+      "responseTimeMs": 760,
       "error": null,
       "attempts": 1
     },
@@ -21,7 +21,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 302,
-      "responseTimeMs": 672,
+      "responseTimeMs": 1222,
       "error": null,
       "attempts": 1
     },
@@ -33,7 +33,7 @@
       "status": "up",
       "since": "2026-11-22T10:18:05Z",
       "statusCode": 200,
-      "responseTimeMs": 1676,
+      "responseTimeMs": 1887,
       "error": null,
       "attempts": 1
     },
@@ -45,7 +45,7 @@
       "status": "up",
       "since": "2026-11-19T18:23:55Z",
       "statusCode": 200,
-      "responseTimeMs": 436,
+      "responseTimeMs": 2938,
       "error": null,
       "attempts": 1
     },
@@ -57,7 +57,7 @@
       "status": "up",
       "since": "2026-11-23T22:45:45Z",
       "statusCode": 301,
-      "responseTimeMs": 1505,
+      "responseTimeMs": 4109,
       "error": null,
       "attempts": 1
     },
@@ -81,7 +81,7 @@
       "status": "up",
       "since": "2026-11-22T17:48:57Z",
       "statusCode": 301,
-      "responseTimeMs": 1759,
+      "responseTimeMs": 2205,
       "error": null,
       "attempts": 1
     },
@@ -93,7 +93,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 1560,
+      "responseTimeMs": 2812,
       "error": null,
       "attempts": 1
     },
@@ -105,7 +105,7 @@
       "status": "up",
       "since": "2026-11-23T22:45:45Z",
       "statusCode": 302,
-      "responseTimeMs": 1625,
+      "responseTimeMs": 3355,
       "error": null,
       "attempts": 1
     },
@@ -117,7 +117,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 301,
-      "responseTimeMs": 1776,
+      "responseTimeMs": 4070,
       "error": null,
       "attempts": 1
     },
@@ -129,7 +129,7 @@
       "status": "up",
       "since": "2026-11-18T18:52:45Z",
       "statusCode": 302,
-      "responseTimeMs": 1701,
+      "responseTimeMs": 3957,
       "error": null,
       "attempts": 1
     },
@@ -141,7 +141,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 2350,
+      "responseTimeMs": 7082,
       "error": null,
       "attempts": 1
     },
@@ -153,7 +153,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 302,
-      "responseTimeMs": 1416,
+      "responseTimeMs": 3703,
       "error": null,
       "attempts": 1
     },
@@ -165,7 +165,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 403,
-      "responseTimeMs": 1330,
+      "responseTimeMs": 3596,
       "error": null,
       "attempts": 1
     },
@@ -177,7 +177,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 3380,
+      "responseTimeMs": 3917,
       "error": null,
       "attempts": 1
     },
@@ -188,8 +188,8 @@
       "url": "https://www.masrawy.com/",
       "status": "up",
       "since": "2026-11-18T18:42:01Z",
-      "statusCode": 403,
-      "responseTimeMs": 1336,
+      "statusCode": 200,
+      "responseTimeMs": 3849,
       "error": null,
       "attempts": 1
     },
@@ -201,7 +201,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 1956,
+      "responseTimeMs": 4663,
       "error": null,
       "attempts": 1
     }
