@@ -1,8 +1,14 @@
 [
   {
+    "site": "digital-egypt",
+    "startedAt": "2026-11-25T21:08:40Z",
+    "resolvedAt": null,
+    "cause": "Connect Timeout Error (attempted address: digital.gov.eg:443, timeout: 10000ms)"
+  },
+  {
     "site": "vodafone",
     "startedAt": "2026-11-25T20:54:25Z",
-    "resolvedAt": null,
+    "resolvedAt": "2026-11-25T21:08:40Z",
     "cause": "Unexpected status 555"
   },
   {

@@ -4,20 +4,20 @@ Checked 20–30 times a day by [`collect.yml`](../.github/workflows/collect.yml)
 (exponential-backoff retries before a site counts as down). **Up** = the server answered with a status below 500
 within 15 s. Probes run from GitHub Actions runners (outside Egypt), so sites that block foreign traffic aren't listed.
 
-_Last check: 2026-11-25T20:54:25Z_
+_Last check: 2026-11-25T21:08:40Z_
 
 |  | Site | Category | Today | 7 days | 30 days | p95 (7d) |
 |---|---|---|---|---|---|---|
 | 🟢 | Central Bank of Egypt | Banks | 100% | 100% | 100% | 760 ms |
 | 🟢 | National Bank of Egypt | Banks | 100% | 100% | 100% | 1697 ms |
-| 🟢 | Banque Misr | Banks | 100% | 96.71% | 97.81% | 2891 ms |
-| 🟢 | CIB | Banks | 100% | 99.34% | 99.56% | 3620 ms |
-| 🟢 | Fawry | Payments | 100% | 98.03% | 97.81% | 4952 ms |
-| 🟢 | Digital Egypt | Government | 5.26% | 0.66% | 0.44% | 2509 ms |
-| 🟢 | Egyptian Tax Authority | Government | 100% | 96.71% | 97.81% | 2650 ms |
+| 🟢 | Banque Misr | Banks | 100% | 96.73% | 97.82% | 2891 ms |
+| 🟢 | CIB | Banks | 100% | 99.35% | 99.56% | 3620 ms |
+| 🟢 | Fawry | Payments | 100% | 98.04% | 97.82% | 4952 ms |
+| 🔴 | Digital Egypt | Government | 5.00% | 0.65% | 0.44% | 2509 ms |
+| 🟢 | Egyptian Tax Authority | Government | 100% | 96.73% | 97.82% | 2650 ms |
 | 🟢 | CAPMAS | Government | 100% | 100% | 100% | 2879 ms |
-| 🔴 | Vodafone Egypt | Telecom | 94.74% | 98.68% | 99.12% | 3203 ms |
-| 🟢 | Orange Egypt | Telecom | 100% | 100% | 100% | 3319 ms |
+| 🟢 | Vodafone Egypt | Telecom | 95.00% | 98.69% | 99.13% | 3203 ms |
+| 🟢 | Orange Egypt | Telecom | 100% | 100% | 100% | 3606 ms |
 | 🟢 | e& Egypt | Telecom | 100% | 100% | 99.56% | 3416 ms |
 | 🟢 | WE (Telecom Egypt) | Telecom | 100% | 100% | 100% | 5873 ms |
 | 🟢 | EgyptAir | Travel | 100% | 100% | 100% | 3583 ms |
@@ -30,7 +30,8 @@ _Last check: 2026-11-25T20:54:25Z_
 
 | Site | Started (UTC) | Resolved (UTC) | Cause |
 |---|---|---|---|
-| Vodafone Egypt | 2026-11-25T20:54:25Z | ongoing | Unexpected status 555 |
+| Digital Egypt | 2026-11-25T21:08:40Z | ongoing | Connect Timeout Error (attempted address: digital.gov.eg:443, timeout: 10000ms) |
+| Vodafone Egypt | 2026-11-25T20:54:25Z | 2026-11-25T21:08:40Z | Unexpected status 555 |
 | Vodafone Egypt | 2026-11-23T13:04:30Z | 2026-11-23T22:45:45Z | Connect Timeout Error (attempted address: web.vodafone.com.eg:443, timeout: 10000ms) |
 | Fawry | 2026-11-23T12:52:18Z | 2026-11-23T22:45:45Z | Timeout after 15000ms |
 | Egyptian Tax Authority | 2026-11-22T17:09:35Z | 2026-11-22T17:48:57Z | Timeout after 15000ms |
@@ -44,4 +45,3 @@ _Last check: 2026-11-25T20:54:25Z_
 | e& Egypt | 2026-11-18T18:42:01Z | 2026-11-18T18:52:45Z | Connection refused |
 | Masrawy | 2026-11-18T18:31:59Z | 2026-11-18T18:42:01Z | Timeout after 15000ms |
 | Fawry | 2026-11-17T10:49:08Z | 2026-11-17T11:03:27Z | Timeout after 15000ms |
-| Fawry | 2026-11-16T10:10:21Z | 2026-11-16T18:56:16Z | Timeout after 15000ms |
