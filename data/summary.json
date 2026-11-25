@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T22:10:38Z",
+  "generatedAt": "2026-11-25T22:21:19Z",
   "sites": [
     {
       "id": "cbe",
@@ -8,19 +8,19 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "today": {
-        "checks": 25,
+        "checks": 26,
         "uptimePercent": 100,
-        "avgMs": 446,
+        "avgMs": 448,
         "p95Ms": 708
       },
       "7d": {
-        "checks": 158,
+        "checks": 159,
         "uptimePercent": 100,
         "avgMs": 485,
         "p95Ms": 760
       },
       "30d": {
-        "checks": 234,
+        "checks": 235,
         "uptimePercent": 100,
         "avgMs": 483,
         "p95Ms": 760
@@ -33,21 +33,21 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "today": {
-        "checks": 25,
+        "checks": 26,
         "uptimePercent": 100,
-        "avgMs": 1083,
-        "p95Ms": 1424
+        "avgMs": 1103,
+        "p95Ms": 1590
       },
       "7d": {
-        "checks": 158,
+        "checks": 159,
         "uptimePercent": 100,
-        "avgMs": 1223,
+        "avgMs": 1225,
         "p95Ms": 1697
       },
       "30d": {
-        "checks": 234,
+        "checks": 235,
         "uptimePercent": 100,
-        "avgMs": 1225,
+        "avgMs": 1227,
         "p95Ms": 1736
       }
     },
@@ -58,21 +58,21 @@
       "status": "up",
       "since": "2026-11-22T10:18:05Z",
       "today": {
-        "checks": 25,
+        "checks": 26,
         "uptimePercent": 100,
-        "avgMs": 2431,
+        "avgMs": 2420,
         "p95Ms": 2973
       },
       "7d": {
-        "checks": 158,
-        "uptimePercent": 96.835,
-        "avgMs": 2070,
+        "checks": 159,
+        "uptimePercent": 96.855,
+        "avgMs": 2071,
         "p95Ms": 2891
       },
       "30d": {
-        "checks": 234,
-        "uptimePercent": 97.863,
-        "avgMs": 2005,
+        "checks": 235,
+        "uptimePercent": 97.872,
+        "avgMs": 2006,
         "p95Ms": 2761
       }
     },
@@ -83,22 +83,22 @@
       "status": "up",
       "since": "2026-11-19T18:23:55Z",
       "today": {
-        "checks": 25,
+        "checks": 26,
         "uptimePercent": 100,
-        "avgMs": 1459,
+        "avgMs": 1532,
         "p95Ms": 3584
       },
       "7d": {
-        "checks": 158,
-        "uptimePercent": 99.367,
-        "avgMs": 1602,
+        "checks": 159,
+        "uptimePercent": 99.371,
+        "avgMs": 1614,
         "p95Ms": 3620
       },
       "30d": {
-        "checks": 234,
-        "uptimePercent": 99.573,
-        "avgMs": 1640,
-        "p95Ms": 3353
+        "checks": 235,
+        "uptimePercent": 99.574,
+        "avgMs": 1648,
+        "p95Ms": 3367
       }
     },
     {
@@ -108,22 +108,22 @@
       "status": "up",
       "since": "2026-11-23T22:45:45Z",
       "today": {
-        "checks": 25,
+        "checks": 26,
         "uptimePercent": 100,
-        "avgMs": 2599,
-        "p95Ms": 5786
+        "avgMs": 2866,
+        "p95Ms": 8265
       },
       "7d": {
-        "checks": 158,
-        "uptimePercent": 98.101,
-        "avgMs": 2518,
-        "p95Ms": 4952
+        "checks": 159,
+        "uptimePercent": 98.113,
+        "avgMs": 2563,
+        "p95Ms": 5077
       },
       "30d": {
-        "checks": 234,
-        "uptimePercent": 97.863,
-        "avgMs": 2479,
-        "p95Ms": 5077
+        "checks": 235,
+        "uptimePercent": 97.872,
+        "avgMs": 2510,
+        "p95Ms": 5078
       }
     },
     {
@@ -133,20 +133,20 @@
       "status": "down",
       "since": "2026-11-25T21:08:40Z",
       "today": {
-        "checks": 25,
-        "uptimePercent": 4,
+        "checks": 26,
+        "uptimePercent": 3.846,
         "avgMs": 2509,
         "p95Ms": 2509
       },
       "7d": {
-        "checks": 158,
-        "uptimePercent": 0.633,
+        "checks": 159,
+        "uptimePercent": 0.629,
         "avgMs": 2509,
         "p95Ms": 2509
       },
       "30d": {
-        "checks": 234,
-        "uptimePercent": 0.427,
+        "checks": 235,
+        "uptimePercent": 0.426,
         "avgMs": 2509,
         "p95Ms": 2509
       }
@@ -158,20 +158,20 @@
       "status": "up",
       "since": "2026-11-22T17:48:57Z",
       "today": {
-        "checks": 25,
+        "checks": 26,
         "uptimePercent": 100,
-        "avgMs": 2084,
+        "avgMs": 2086,
         "p95Ms": 2673
       },
       "7d": {
-        "checks": 158,
-        "uptimePercent": 96.835,
-        "avgMs": 2034,
+        "checks": 159,
+        "uptimePercent": 96.855,
+        "avgMs": 2035,
         "p95Ms": 2650
       },
       "30d": {
-        "checks": 234,
-        "uptimePercent": 97.863,
+        "checks": 235,
+        "uptimePercent": 97.872,
         "avgMs": 2000,
         "p95Ms": 2579
       }
@@ -183,21 +183,21 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "today": {
-        "checks": 25,
+        "checks": 26,
         "uptimePercent": 100,
-        "avgMs": 2279,
+        "avgMs": 2290,
         "p95Ms": 2912
       },
       "7d": {
-        "checks": 158,
+        "checks": 159,
         "uptimePercent": 100,
-        "avgMs": 2210,
+        "avgMs": 2212,
         "p95Ms": 2879
       },
       "30d": {
-        "checks": 234,
+        "checks": 235,
         "uptimePercent": 100,
-        "avgMs": 2205,
+        "avgMs": 2207,
         "p95Ms": 2841
       }
     },
@@ -208,21 +208,21 @@
       "status": "up",
       "since": "2026-11-25T21:08:40Z",
       "today": {
-        "checks": 25,
-        "uptimePercent": 96,
-        "avgMs": 2266,
+        "checks": 26,
+        "uptimePercent": 96.154,
+        "avgMs": 2270,
         "p95Ms": 2917
       },
       "7d": {
-        "checks": 158,
-        "uptimePercent": 98.734,
+        "checks": 159,
+        "uptimePercent": 98.742,
         "avgMs": 2251,
         "p95Ms": 3203
       },
       "30d": {
-        "checks": 234,
-        "uptimePercent": 99.145,
-        "avgMs": 2220,
+        "checks": 235,
+        "uptimePercent": 99.149,
+        "avgMs": 2221,
         "p95Ms": 3328
       }
     },
@@ -233,21 +233,21 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "today": {
-        "checks": 25,
+        "checks": 26,
         "uptimePercent": 100,
-        "avgMs": 2423,
+        "avgMs": 2432,
         "p95Ms": 3873
       },
       "7d": {
-        "checks": 158,
+        "checks": 159,
         "uptimePercent": 100,
-        "avgMs": 2349,
+        "avgMs": 2351,
         "p95Ms": 3606
       },
       "30d": {
-        "checks": 234,
+        "checks": 235,
         "uptimePercent": 100,
-        "avgMs": 2315,
+        "avgMs": 2317,
         "p95Ms": 3470
       }
     },
@@ -258,21 +258,21 @@
       "status": "up",
       "since": "2026-11-18T18:52:45Z",
       "today": {
-        "checks": 25,
+        "checks": 26,
         "uptimePercent": 100,
-        "avgMs": 2564,
+        "avgMs": 2575,
         "p95Ms": 3538
       },
       "7d": {
-        "checks": 158,
+        "checks": 159,
         "uptimePercent": 100,
-        "avgMs": 2450,
+        "avgMs": 2452,
         "p95Ms": 3416
       },
       "30d": {
-        "checks": 234,
-        "uptimePercent": 99.573,
-        "avgMs": 2444,
+        "checks": 235,
+        "uptimePercent": 99.574,
+        "avgMs": 2445,
         "p95Ms": 3345
       }
     },
@@ -283,21 +283,21 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "today": {
-        "checks": 25,
+        "checks": 26,
         "uptimePercent": 100,
-        "avgMs": 3225,
+        "avgMs": 3215,
         "p95Ms": 5379
       },
       "7d": {
-        "checks": 158,
+        "checks": 159,
         "uptimePercent": 100,
-        "avgMs": 3467,
+        "avgMs": 3464,
         "p95Ms": 5873
       },
       "30d": {
-        "checks": 234,
+        "checks": 235,
         "uptimePercent": 100,
-        "avgMs": 3518,
+        "avgMs": 3515,
         "p95Ms": 5904
       }
     },
@@ -308,21 +308,21 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "today": {
-        "checks": 25,
+        "checks": 26,
         "uptimePercent": 100,
-        "avgMs": 2427,
+        "avgMs": 2438,
         "p95Ms": 3583
       },
       "7d": {
-        "checks": 158,
+        "checks": 159,
         "uptimePercent": 100,
-        "avgMs": 2330,
+        "avgMs": 2332,
         "p95Ms": 3583
       },
       "30d": {
-        "checks": 234,
+        "checks": 235,
         "uptimePercent": 100,
-        "avgMs": 2308,
+        "avgMs": 2310,
         "p95Ms": 3583
       }
     },
@@ -333,21 +333,21 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "today": {
-        "checks": 25,
+        "checks": 26,
         "uptimePercent": 100,
-        "avgMs": 2095,
+        "avgMs": 2097,
         "p95Ms": 3198
       },
       "7d": {
-        "checks": 158,
+        "checks": 159,
         "uptimePercent": 100,
-        "avgMs": 1967,
+        "avgMs": 1968,
         "p95Ms": 3198
       },
       "30d": {
-        "checks": 234,
+        "checks": 235,
         "uptimePercent": 100,
-        "avgMs": 1988,
+        "avgMs": 1989,
         "p95Ms": 3198
       }
     },
@@ -358,19 +358,19 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "today": {
-        "checks": 25,
+        "checks": 26,
         "uptimePercent": 100,
-        "avgMs": 2332,
+        "avgMs": 2331,
         "p95Ms": 3366
       },
       "7d": {
-        "checks": 158,
+        "checks": 159,
         "uptimePercent": 100,
         "avgMs": 2249,
         "p95Ms": 3697
       },
       "30d": {
-        "checks": 234,
+        "checks": 235,
         "uptimePercent": 100,
         "avgMs": 2254,
         "p95Ms": 3762
@@ -383,20 +383,20 @@
       "status": "up",
       "since": "2026-11-18T18:42:01Z",
       "today": {
-        "checks": 25,
+        "checks": 26,
         "uptimePercent": 100,
-        "avgMs": 2271,
+        "avgMs": 2273,
         "p95Ms": 3349
       },
       "7d": {
-        "checks": 158,
+        "checks": 159,
         "uptimePercent": 100,
-        "avgMs": 2151,
+        "avgMs": 2152,
         "p95Ms": 3449
       },
       "30d": {
-        "checks": 234,
-        "uptimePercent": 99.573,
+        "checks": 235,
+        "uptimePercent": 99.574,
         "avgMs": 2203,
         "p95Ms": 3505
       }
@@ -408,21 +408,21 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "today": {
-        "checks": 25,
+        "checks": 26,
         "uptimePercent": 100,
-        "avgMs": 3609,
+        "avgMs": 3585,
         "p95Ms": 6381
       },
       "7d": {
-        "checks": 158,
+        "checks": 159,
         "uptimePercent": 100,
-        "avgMs": 3351,
+        "avgMs": 3348,
         "p95Ms": 6381
       },
       "30d": {
-        "checks": 234,
+        "checks": 235,
         "uptimePercent": 100,
-        "avgMs": 3407,
+        "avgMs": 3405,
         "p95Ms": 6421
       }
     }
