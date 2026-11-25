@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-25T02:50:30Z",
+  "checkedAt": "2026-11-25T11:40:15Z",
   "sites": [
     {
       "id": "cbe",
@@ -9,7 +9,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 202,
+      "responseTimeMs": 495,
       "error": null,
       "attempts": 1
     },
@@ -21,7 +21,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 302,
-      "responseTimeMs": 677,
+      "responseTimeMs": 1037,
       "error": null,
       "attempts": 1
     },
@@ -33,7 +33,7 @@
       "status": "up",
       "since": "2026-11-22T10:18:05Z",
       "statusCode": 200,
-      "responseTimeMs": 1751,
+      "responseTimeMs": 2515,
       "error": null,
       "attempts": 1
     },
@@ -45,7 +45,7 @@
       "status": "up",
       "since": "2026-11-19T18:23:55Z",
       "statusCode": 200,
-      "responseTimeMs": 186,
+      "responseTimeMs": 674,
       "error": null,
       "attempts": 1
     },
@@ -57,7 +57,7 @@
       "status": "up",
       "since": "2026-11-23T22:45:45Z",
       "statusCode": 301,
-      "responseTimeMs": 1289,
+      "responseTimeMs": 8265,
       "error": null,
       "attempts": 1
     },
@@ -81,7 +81,7 @@
       "status": "up",
       "since": "2026-11-22T17:48:57Z",
       "statusCode": 301,
-      "responseTimeMs": 1482,
+      "responseTimeMs": 2673,
       "error": null,
       "attempts": 1
     },
@@ -93,7 +93,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 1378,
+      "responseTimeMs": 2912,
       "error": null,
       "attempts": 1
     },
@@ -105,7 +105,7 @@
       "status": "up",
       "since": "2026-11-23T22:45:45Z",
       "statusCode": 302,
-      "responseTimeMs": 1311,
+      "responseTimeMs": 2558,
       "error": null,
       "attempts": 1
     },
@@ -117,7 +117,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 301,
-      "responseTimeMs": 1308,
+      "responseTimeMs": 2503,
       "error": null,
       "attempts": 1
     },
@@ -128,8 +128,8 @@
       "url": "https://www.etisalat.eg/",
       "status": "up",
       "since": "2026-11-18T18:52:45Z",
-      "statusCode": 301,
-      "responseTimeMs": 1405,
+      "statusCode": 302,
+      "responseTimeMs": 2730,
       "error": null,
       "attempts": 1
     },
@@ -141,7 +141,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 1708,
+      "responseTimeMs": 3144,
       "error": null,
       "attempts": 1
     },
@@ -153,7 +153,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 302,
-      "responseTimeMs": 1114,
+      "responseTimeMs": 2753,
       "error": null,
       "attempts": 1
     },
@@ -165,7 +165,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 403,
-      "responseTimeMs": 990,
+      "responseTimeMs": 2137,
       "error": null,
       "attempts": 1
     },
@@ -177,7 +177,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 1086,
+      "responseTimeMs": 2558,
       "error": null,
       "attempts": 1
     },
@@ -188,8 +188,8 @@
       "url": "https://www.masrawy.com/",
       "status": "up",
       "since": "2026-11-18T18:42:01Z",
-      "statusCode": 403,
-      "responseTimeMs": 979,
+      "statusCode": 200,
+      "responseTimeMs": 2404,
       "error": null,
       "attempts": 1
     },
@@ -201,7 +201,7 @@
       "status": "up",
       "since": "2026-11-15T22:03:34Z",
       "statusCode": 200,
-      "responseTimeMs": 1600,
+      "responseTimeMs": 3569,
       "error": null,
       "attempts": 1
     }
