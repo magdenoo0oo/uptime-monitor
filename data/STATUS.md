@@ -4,19 +4,19 @@ Checked 20–30 times a day by [`collect.yml`](../.github/workflows/collect.yml)
 (exponential-backoff retries before a site counts as down). **Up** = the server answered with a status below 500
 within 15 s. Probes run from GitHub Actions runners (outside Egypt), so sites that block foreign traffic aren't listed.
 
-_Last check: 2026-11-26T23:10:30Z_
+_Last check: 2026-11-26T23:21:58Z_
 
 |  | Site | Category | Today | 7 days | 30 days | p95 (7d) |
 |---|---|---|---|---|---|---|
 | 🟢 | Central Bank of Egypt | Banks | 100% | 100% | 100% | 735 ms |
 | 🟢 | National Bank of Egypt | Banks | 100% | 100% | 100% | 1657 ms |
-| 🟢 | Banque Misr | Banks | 100% | 96.80% | 98.07% | 2891 ms |
+| 🟢 | Banque Misr | Banks | 100% | 96.81% | 98.08% | 2908 ms |
 | 🟢 | CIB | Banks | 100% | 100% | 99.61% | 3664 ms |
-| 🟢 | Fawry | Payments | 100% | 98.08% | 98.07% | 5077 ms |
+| 🟢 | Fawry | Payments | 100% | 98.09% | 98.08% | 5077 ms |
 | 🔴 | Digital Egypt | Government | 0.00% | 0.64% | 0.39% | 2509 ms |
-| 🟢 | Egyptian Tax Authority | Government | 100% | 96.80% | 98.07% | 2650 ms |
+| 🟢 | Egyptian Tax Authority | Government | 100% | 96.81% | 98.08% | 2650 ms |
 | 🟢 | CAPMAS | Government | 100% | 100% | 100% | 2879 ms |
-| 🟢 | Vodafone Egypt | Telecom | 100% | 98.72% | 99.23% | 3203 ms |
+| 🟢 | Vodafone Egypt | Telecom | 100% | 98.73% | 99.23% | 3203 ms |
 | 🟢 | Orange Egypt | Telecom | 100% | 100% | 100% | 3606 ms |
 | 🟢 | e& Egypt | Telecom | 100% | 100% | 99.61% | 3416 ms |
 | 🟢 | WE (Telecom Egypt) | Telecom | 100% | 100% | 100% | 5787 ms |
