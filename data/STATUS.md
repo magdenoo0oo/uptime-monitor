@@ -4,26 +4,26 @@ Checked 20–30 times a day by [`collect.yml`](../.github/workflows/collect.yml)
 (exponential-backoff retries before a site counts as down). **Up** = the server answered with a status below 500
 within 15 s. Probes run from GitHub Actions runners (outside Egypt), so sites that block foreign traffic aren't listed.
 
-_Last check: 2026-11-27T22:55:01Z_
+_Last check: 2026-11-27T23:07:35Z_
 
 |  | Site | Category | Today | 7 days | 30 days | p95 (7d) |
 |---|---|---|---|---|---|---|
 | 🟢 | Central Bank of Egypt | Banks | 100% | 100% | 100% | 719 ms |
 | 🟢 | National Bank of Egypt | Banks | 100% | 100% | 100% | 1590 ms |
-| 🟢 | Banque Misr | Banks | 100% | 96.80% | 98.23% | 2909 ms |
-| 🟢 | CIB | Banks | 100% | 100% | 99.64% | 3620 ms |
-| 🟢 | Fawry | Payments | 100% | 98.08% | 98.23% | 4952 ms |
+| 🟢 | Banque Misr | Banks | 100% | 96.81% | 98.23% | 2917 ms |
+| 🟢 | CIB | Banks | 100% | 100% | 99.65% | 3620 ms |
+| 🟢 | Fawry | Payments | 100% | 98.09% | 98.23% | 4952 ms |
 | 🔴 | Digital Egypt | Government | 0.00% | 0.64% | 0.35% | 2509 ms |
-| 🟢 | Egyptian Tax Authority | Government | 100% | 96.80% | 98.23% | 2675 ms |
+| 🟢 | Egyptian Tax Authority | Government | 100% | 96.81% | 98.23% | 2675 ms |
 | 🟢 | CAPMAS | Government | 100% | 100% | 100% | 2966 ms |
-| 🟢 | Vodafone Egypt | Telecom | 100% | 98.72% | 99.29% | 3173 ms |
+| 🟢 | Vodafone Egypt | Telecom | 100% | 98.73% | 99.29% | 3173 ms |
 | 🟢 | Orange Egypt | Telecom | 100% | 100% | 100% | 3339 ms |
-| 🟢 | e& Egypt | Telecom | 100% | 100% | 99.64% | 3416 ms |
+| 🟢 | e& Egypt | Telecom | 100% | 100% | 99.65% | 3416 ms |
 | 🟢 | WE (Telecom Egypt) | Telecom | 100% | 100% | 100% | 5787 ms |
 | 🟢 | EgyptAir | Travel | 100% | 100% | 100% | 3583 ms |
 | 🟢 | Al-Ahram | News | 100% | 100% | 100% | 3196 ms |
 | 🟢 | Youm7 | News | 100% | 100% | 100% | 3886 ms |
-| 🟢 | Masrawy | News | 100% | 100% | 99.64% | 3421 ms |
+| 🟢 | Masrawy | News | 100% | 100% | 99.65% | 3421 ms |
 | 🟢 | Cairo University | Education | 100% | 100% | 100% | 6421 ms |
 
 ## Recent incidents
